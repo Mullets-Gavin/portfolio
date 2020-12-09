@@ -1,8 +1,8 @@
 {
-    "name": "gatsby-starter-hello-world",
+    "name": "mullets-portfolio",
     "private": true,
-    "description": "A simplified bare-bones starter for Gatsby",
-    "version": "0.1.0",
+    "description": "An overview of my work",
+    "version": "1",
     "license": "0BSD",
     "scripts": {
         "build": "gatsby build",
@@ -12,7 +12,7 @@
         "serve": "gatsby serve",
         "clean": "gatsby clean",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-        "deploy": "gatsby build && gh-pages -d public -b master"
+        "deploy": "gh-pages -d build -r https://github.com/Mullets-Gavin/Mullets-Gavin.github.io"
       },
     "dependencies": {
       "gatsby": "^2.26.1",
