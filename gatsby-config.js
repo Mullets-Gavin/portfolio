@@ -6,6 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-  pathPrefix: "/mullets.github.io"
+  plugins: []
 }
