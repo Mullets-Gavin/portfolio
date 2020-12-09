@@ -12,7 +12,7 @@
         "serve": "gatsby serve",
         "clean": "gatsby clean",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-        "deploy": "gh-pages -d build -r https://github.com/Mullets-Gavin/Mullets-Gavin.github.io"
+        "deploy": "gh-pages -d src -r https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
       },
     "dependencies": {
       "gatsby": "^2.26.1",
@@ -25,7 +25,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+      "url": "https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
     },
     "bugs": {
       "url": "https://github.com/gatsbyjs/gatsby/issues"
