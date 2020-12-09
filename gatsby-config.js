@@ -5,6 +5,5 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: []
+  pathPrefix: "/Mullets-Gavin.github.io"
 }
