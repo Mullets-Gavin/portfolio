@@ -2,7 +2,7 @@
     "name": "mullets-portfolio",
     "private": true,
     "description": "An overview of my work",
-    "version": "1",
+    "version": "0.1.0",
     "license": "0BSD",
     "scripts": {
         "build": "gatsby build",
