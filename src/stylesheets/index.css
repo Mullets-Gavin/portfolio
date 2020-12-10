@@ -1,0 +1,11 @@
+/*
+File: index.css
+About: this css file is used for default styles, such as the background of the site
+*/
+
+body {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
