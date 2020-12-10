@@ -1,5 +1,4 @@
 import React from "react"
-import "../stylesheets/index.css"
 import "../stylesheets/styles.css"
 //import Button from "../components/buttons"
 //import { Link } from "gatsby"
@@ -10,7 +9,7 @@ export default () => {
   const [counter, setCounter] = useState(0);
 
   return (
-    <div className="Counter">
+    <div className="App">
       <div style={{
           display: 'flex',
           justifyContent: 'center',
@@ -19,8 +18,8 @@ export default () => {
           height: '100%'
         }}>
         
-        <h1>I am centered</h1>
-
+        <h1> I am centered </h1>
+        
         <p>
           {counter}
         </p>
@@ -29,17 +28,8 @@ export default () => {
             setCounter(counter + 1)
         }}>Click me!</button>
       </div>
+
+      <div class="footer">this is my BANGER footer</div>
     </div>
   );
 }
-
-// export default function Home() {
-//   return (
-//     <div style={{ color: `purple` }}>
-//       <Link to="/contact/">Contact</Link>
-//       <h1>Hello Gatsby!</h1>
-//       <p>What a world.</p>
-//       <img src="https://source.unsplash.com/random/400x200" alt="" />
-//     </div>
-//   )
-// }
