@@ -1,33 +1,35 @@
 {
-    "name": "mullets-portfolio",
-    "private": true,
-    "description": "An overview of all my work",
-    "version": "0.1.0",
-    "license": "0BSD",
-    "scripts": {
-        "build": "gatsby build",
-        "develop": "gatsby develop",
-        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-        "start": "npm run develop",
-        "serve": "gatsby serve",
-        "clean": "gatsby clean",
-        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-        "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
-      },
-    "dependencies": {
-      "gatsby": "^2.26.1",
-      "react": "^16.12.0",
-      "react-dom": "^16.12.0"
-    },
-    "devDependencies": {
-      "gh-pages": "^3.1.0",
-      "prettier": "2.1.2"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
-    },
-    "bugs": {
-      "url": "https://github.com/gatsbyjs/gatsby/issues"
-    }
+  "name": "mullets-portfolio",
+  "private": true,
+  "description": "An overview of all my work",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^3.6.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
+}
