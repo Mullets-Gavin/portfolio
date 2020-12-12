@@ -1,0 +1,14 @@
+:root{
+    --button-padding: 12px;
+
+    --footer: 80px;
+    --footer-buttons: 60px;
+    --footer-spacing: 10px;
+
+    --header: 32;
+    --header-pad: 24px;
+
+    --white: #FFFFFF;
+    --grey: #C6C6C6;
+    --red: #FF2B2E;
+}
