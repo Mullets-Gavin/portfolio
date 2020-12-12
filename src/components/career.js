@@ -18,8 +18,8 @@ export default () => {
                 desc2="Lead programmer on systems and UI/UX"
                 desc3="Work alongside Roblox's professional teams"
 
-                accomp1="Designed a unique & creative game idea with the help of Roblox"
-                accomp2="Developer a Lua library loader to streamline development"
+                accomp1="Designed a unique & creative game with the help of Roblox"
+                accomp2="Developed a Lua library loader to streamline development"
                 accomp3="Created various open source packages for Roblox gamedev"
             />
 

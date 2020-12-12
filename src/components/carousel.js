@@ -7,7 +7,7 @@ import Temp from '../images/pfp.png'
 export default () => {
     return (
         <Carousel itemsToShow={1}>
-            <Item name="Mullets_Gavin" job="Lead Programmer, Mullet Mafia Dev" body="This is a temporary testimonial to demonstrate how testimonials will be displayed. If you write one, thanks." avatar={Temp}/>
+            <Item name="Gavin Rosenthal" job="Lead Programmer, Mullet Mafia Dev" body="This is a temporary testimonial to demonstrate how testimonials will be displayed. If you write one, thanks." avatar={Temp}/>
         </Carousel>
     )
 }
