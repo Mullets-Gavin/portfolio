@@ -14,8 +14,6 @@ export default () => {
                     experience in Roblox alongside some of the best people in the industry, such as professional game designers, product managers,
                     and engineers.
                 </p>
-                
-                <br/>
 
                 <p class="about-body">
                     I’m completely self-taught, and I aspire to perfect my craft by practicing & learning new languages and software, such as React.

@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default (props) => {
-    const CanAccomplish = props.accomp
     return (
         <div class="work-content">
             <div class="work-header">

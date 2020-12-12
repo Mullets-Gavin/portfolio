@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './carousel.js'
 
 export default () => {
     return (
@@ -7,7 +8,9 @@ export default () => {
                 <h1 class="testimonials-title">Testimonials</h1>
                 <p class="testimonials-body">People have said some pretty cool things about me</p>
 
-                
+                <div class="testimonials-carousel">
+                    <Carousel/>
+                </div>
             </div>
         </div>
     )

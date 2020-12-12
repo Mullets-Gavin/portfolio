@@ -349,6 +349,29 @@ body {
 
 .testimonials-body {
 	color: var(--white);
+	margin-top: 0;
+}
+
+.testimonials-carousel {
+	padding-top: 30px;
+}
+
+.testimonials-item {
+	width: 100%;
+	max-width: var(--testimonails-pixels);
+	height: 100%;
+}
+
+.testimonials-avatar {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 26px;
+}
+
+.testimonials-header {
+	color: var(--white);
+	margin-bottom: 0;
 }
 
 /*--------*/
@@ -391,4 +414,44 @@ body {
 
 .work-info {
 	text-align: left;
+}
+
+/*----------*/
+/* Carousel */
+/*----------*/
+
+.rec.rec-arrow {
+    border-radius: 50%;
+}
+
+.rec.rec-arrow {
+    visibility: hidden;
+}
+
+.rec.rec-arrow:hover {
+	background-color: white !important;
+}
+
+.rec.rec-carousel-item:focus {
+	background-color: var(--white) !important;
+}
+
+.rec.rec-dot {
+	background-color: none !important;
+	box-shadow: none !important;
+	border: 2px solid var(--white);
+	padding: 0 !important;
+	height: 16px !important;
+	width: 16px !important;
+}
+
+.rec.rec-dot:hover {
+	background-color: white !important;
+}
+
+.rec.rec-dot_active {
+	background-color: white !important;
+	padding: 0 !important;
+	height: 16px !important;
+	width: 16px !important;
 }

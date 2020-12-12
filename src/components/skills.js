@@ -43,7 +43,7 @@ export default () => {
                         Designing games for all ages to create memorable experiences people will cherish throughout their life.
                     </p>
 
-                    <h3 class="skills-head">Skills & Analytics</h3>
+                    <h3 class="skills-head">Skills & Analytics:</h3>
 
                     <ul class="skills-list">
                         <li>Creativity</li>
