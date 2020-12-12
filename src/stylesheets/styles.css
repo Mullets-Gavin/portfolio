@@ -1,24 +1,3 @@
-/* .button {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-} */
-
-/* body {
-	background-image: url(../images/bg.png);
-	background-repeat: repeat;
-    background-attachment: fixed;
-	background-size: 25%;
-	background-color: #1e1e1e;
-} */
-
 @import "./variables.css";
 
 /*--------*/
@@ -26,8 +5,54 @@
 /*--------*/
 
 body {
-	background-color: #36393F;
+	background-color: var(--grey);
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+
+.header {
+	margin: 0 auto;
+	width: var(--layout-percentage);
+	max-width: var(--layout-pixels);
+	height: auto;
+	color: var(--white);
+	font-size: 32px;
+	font-weight: 900;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.header-title {
+	color: var(--white);
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.header-button {
+	display: flex;
+	font-size: 16px;
+	color: var(--white);
+	padding: 12px;
+	height: 100%;
+	display: inline-block;
+	transition-duration: 0.2s;
+	background-color: var(--grey);
+	border: 2px solid var(--red);
+	border-radius: 8px;
+	margin-left: var(--button-padding);
+}
+
+.header-button:hover {
+	background: var(--red);
 }
 
 /*--------*/
@@ -39,20 +64,19 @@ body {
 	right: 0px;
     left: 0px;
     bottom: 0;
-	width: 100%;
+	width: var(--layout-percentage);
 	height: var(--footer);
 	color: var(--white);
 	font-size: large;
-	background-color: #202225;
-	/*box-shadow: 0px 0px 2px 2px #292B2F;*/
+	background-color: var(--dark);
 }
 
 .footer-content {
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
-	width: 100%;
-	max-width: 1000px;
+	width: var(--layout-percentage);
+	max-width: var(--layout-pixels);
 	padding-top: var(--footer-spacing);
 	height: var(--footer-buttons);
 }
@@ -61,27 +85,25 @@ body {
 	font-size: 16px;
 	color: var(--white);
 	height: 100%;
-	display: inline-block;
+	display: flex;
 	transition-duration: 0.2s;
-	background-color: #202225;
-	border: 2px solid #1DA1F2;
+	background-color: var(--dark);
+	border: 2px solid var(--blue);
 	border-radius: 8px;
 	margin: 0 auto;
 	padding-right: 16px;
 	padding-left: 16px;
 	text-align: center;
 	justify-content: center;
-	/*margin-bottom: 20px;*/
-	/*margin-left: var(--button-padding);*/
 }
 
 .footer-button:hover {
-	background: #1DA1F2;
+	background: var(--blue);
 }
 
-/*---------*/
-/* Buttons */
-/*---------*/
+/*------*/
+/* Sexy */
+/*------*/
 
 .sexy-button {
 	display: flex;
@@ -101,41 +123,17 @@ body {
 	color: white;
 }
 
-.header-button {
-	display: flex;
-	font-size: 16px;
-	color: var(--white);
-	padding: 12px;
-	height: 100%;
-	display: inline-block;
-	transition-duration: 0.2s;
-	background-color: #36393F;
-	border: 2px solid var(--red);
-	border-radius: 8px;
-	margin-left: var(--button-padding);
-}
-
-.header-button:hover {
-	background: var(--red);
-}
-
 /*----------*/
 /* Elements */
 /*----------*/
 
 .app {
-	background-color: #36393F;
+	background-color: var(--grey);
 	height: auto;
 	overflow: hidden;
-	/*width: 100%;
-	height: 100%;
-	object-position: 5px 10%;*/
 }
 
 .panel {
-	/*background-color: #2F3136;*/
-	/* width: 100%;
-	max-width: 1000px; */
 	height: auto;
 	margin: 0 auto;
 }
@@ -148,48 +146,26 @@ body {
 	align-items: center;
 }
 
-.header {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1000px;
-	height: var(--header);
-	color: var(--white);
-	font-size: 32px;
-	font-weight: 900;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.header-title {
-	color: var(--white);
-	font-size: 24px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 100%;
-	/*text-align: center;*/
-}
+/*----------*/
+/* Etc */
+/*----------*/
 
 .info {
-	width: 100%;
+	width: var(--layout-percentage);
 	align-items: center;
 	margin: 0 auto;
-	height: 50vh;
+	height: auto;
+	padding-bottom: 50px;
 }
 
-.about {
-	background-color: var(--red);
-	width: 100%;
-	align-items: center;
-	margin: 0 auto;
-	height: 50vh;
-}
+/*-------------*/
+/* Description */
+/*-------------*/
 
 .description {
 	margin: 0 auto;
-	width: 100%;
-	max-width: 1000px;
+	width: var(--layout-percentage);
+	max-width: var(--layout-pixels);
 }
 
 .description-title {
@@ -199,21 +175,26 @@ body {
 	color: var(--white);
 	margin: 0 auto;
 	align-items: center;
-	padding-top: 5vh;
+	padding-top: 100px;
 }
 
 .description-content {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 0;
-	color: var(--grey);
+	color: var(--light);
 	margin: 0 auto;
 	align-items: center;
 	padding-top: 12px;
 }
 
+/*--------*/
+/* Avatar */
+/*--------*/
+
 .avatar {
-	padding-top: 5vh;
+	padding-top: 50px;
+	padding-bottom: 40px;
 	margin: 0 auto;
 	align-items: center;
 	text-align: center;
@@ -221,13 +202,74 @@ body {
 
 .avatar-img {
 	border-radius: 50%;
-	height: 35%;
-	width: 35%;
+	height: 300px;
+	width: 300px;
 }
 
 .avatar-title {
-	padding-top: 5vh;
+	padding-top: 0px;
 	font-size: 50px;
 	font-weight: 0;
 	color: var(--red);
+}
+
+/*-------*/
+/* About */
+/*-------*/
+
+.about {
+	background-color: var(--red);
+	width: var(--layout-percentage);
+	align-items: center;
+	margin: 0 auto;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+.about-content {
+	margin: 0 auto;
+	width: var(--layout-percentage);
+	font-size: 18px;
+	max-width: var(--layout-pixels);
+	height: auto;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.about-title {
+	padding-top: 50px;
+	color: var(--white);
+}
+
+.about-body {
+	color: var(--white);
+}
+
+/*--------*/
+/* Skills */
+/*--------*/
+
+.skills {
+	color: var(--white);
+	height: auto;
+	max-width: var(--layout-pixels);
+	height: var(--layout-percentage);
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.skills-content {
+	background-color: #292B2F;
+	border-radius: 8px;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.skills-column {
+	padding: 10px;
 }

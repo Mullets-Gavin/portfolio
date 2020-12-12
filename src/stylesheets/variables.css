@@ -9,6 +9,12 @@
     --header-pad: 24px;
 
     --white: #FFFFFF;
-    --grey: #C6C6C6;
+    --light: #C6C6C6;
+    --grey: #36393F;
+    --dark: #202225;
     --red: #FF2B2E;
+    --blue: #1DA1F2;
+
+    --layout-percentage: 100%;
+    --layout-pixels: 1000px;
 }
