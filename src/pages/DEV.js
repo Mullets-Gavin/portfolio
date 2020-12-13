@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../stylesheets/styles.css';
 import Skills from '../components/skills.js'
 import About from '../components/about.js'
@@ -11,7 +11,7 @@ import Career from '../components/career.js'
 export default () => {
     useEffect(() => {
         document.title = 'Mullets | Programmer & Game Designer'
-    },[]);
+    }, []);
 
     return (
         <div class="app"  className="App">
