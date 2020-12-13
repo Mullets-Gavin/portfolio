@@ -446,7 +446,7 @@ body {
 	height: auto;
 	display: flex;
 	text-align: center !important;
-	padding: 2rem 3rem 0 3rem;
+	padding: 2rem 4rem 0 4rem;
 }
 
 .work-img {
@@ -457,7 +457,7 @@ body {
 
 .work-info {
 	text-align: left;
-	padding: 0 3rem 2rem 3rem;
+	padding: 0 4rem 2rem 4rem;
 	height: auto;
 }
 
