@@ -31,8 +31,6 @@ export default () => {
                     </ul>
                 </div>
 
-                <div class="skills-divider"></div>
-
                 <div class="skills-column">
                     <img class="skills-img" alt="Gaming!" src={Gaming}></img>
                     <h2 class="skills-title">Game Design</h2>

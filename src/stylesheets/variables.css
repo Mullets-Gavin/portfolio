@@ -1,11 +1,12 @@
 :root{
-    --button-padding: 12px;
+    --button-padding: 0.9rem;
+    --button-margin: 1rem;
 
-    --footer: 80px;
-    --footer-buttons: 60px;
-    --footer-spacing: 10px;
+    --footer: 5rem;
+    --footer-buttons: 6rem;
+    --footer-spacing: 1rem;
 
-    --header: 32;
+    --header: 3.2rem;
     --header-pad: 24px;
 
     --white: #FFFFFF;
@@ -16,8 +17,13 @@
     --red: #FF2B2E;
     --blue: #1DA1F2;
 
-    --layout-percentage: 100%;
+    --layout-full: 100%;
+    --layout-percentage: calc(100% - 20px);
+    --layout-fill: calc(100% - 4rem - 20px);
     --layout-pixels: 1000px;
 
     --testimonails-pixels: 500px;
+
+    --panel-corners: 8px;
+    --button-corners: 1rem;
 }

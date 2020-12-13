@@ -8,6 +8,8 @@ import Footer from '../components/footer.js'
 import Testimonials from '../components/testimonials.js'
 import Career from '../components/career.js'
 
+document.title = 'Mullets | Programmer & Game Designer'
+
 export default () => {
     return (
         <div class="app"  className="App">
