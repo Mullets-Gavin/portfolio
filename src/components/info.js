@@ -6,7 +6,7 @@ export default () => {
     return (
         <div class="info">
             <div class="description">
-                <h2 class="description-title">Programmer and Game Designer</h2>
+                <h1 class="description-title">Programmer and Game Designer</h1>
                 <p class="description-content">Creating exciting experiences since 2013</p>
 
                 <div class="avatar">

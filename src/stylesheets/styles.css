@@ -66,11 +66,25 @@ body {
 
 .footer {
 	position: initial;
-	right: 0px;
-    left: 0px;
-    bottom: 0;
 	width: 100%;
-	height: var(--footer);
+	height: auto;
+	margin-top: 10rem;
+}
+
+.footer-container {
+	max-width: var(--layout-pixels);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin: 0 auto;
+}
+
+.footer-dir {
+	background-color: var(--dark);
+	width: var(--layout-percentage);
+	height: auto;
+	border-radius: var(--panel-corners);
+	text-align: center;
 }
 
 .footer-content {
@@ -82,6 +96,10 @@ body {
 	height: 10rem;
 
 	background-color: var(--red);
+}
+
+.footer-title {
+	color: var(--white);
 }
 
 .footer-button {
@@ -271,7 +289,10 @@ body {
 .skills-content {
 	width: auto;
 	height: auto;
-	padding: var(--panel-padding);
+	padding-left: var(--panel-padding);
+	padding-right: var(--panel-padding);
+	padding-top: calc(var(--panel-padding) * 2);
+	padding-bottom: calc(var(--panel-padding) * 2);
 	justify-content: center;
 	display: flex;
 }

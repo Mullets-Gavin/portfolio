@@ -3,7 +3,7 @@ import React from 'react'
 export default () => {
     return (
         <div class="header">
-            <h1 class="header-title">Mullets.xyz</h1>
+            <h2 class="header-title">Mullets.xyz</h2>
 
             <div>
                 <button class="header-button">Home</button>
