@@ -1,5 +1,5 @@
 :root{
-    --button-padding: 0.9rem;
+    --button-padding: 0.8rem;
     --button-margin: 1rem;
 
     --footer: 5rem;
@@ -27,4 +27,6 @@
     --button-corners: 1rem;
 
     --panel-padding: 2rem;
+
+    --layout-font: 100%;
 }
