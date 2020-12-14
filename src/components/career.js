@@ -5,7 +5,7 @@ import Roblox from '../images/roblox.png'
 
 export default () => {
     return (
-        <div class="career">
+        <div class="work">
             <h1>Career</h1>
 
             <Work
@@ -22,7 +22,7 @@ export default () => {
                 accomp2="Developed a Lua library loader to streamline development"
                 accomp3="Created various open source packages for Roblox gamedev"
             />
-
+            <br/>
             <Work
                 img={Roblox}
                 title="Volunteer"

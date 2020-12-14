@@ -1,35 +1,29 @@
-import React from "react"
-import "../stylesheets/styles.css"
-//import Button from "../components/buttons"
-//import { Link } from "gatsby"
-
-const {useState} = React
+import React, { useEffect } from 'react';
+import '../stylesheets/styles.css';
+import Skills from '../components/skills.js'
+import About from '../components/about.js'
+import Info from '../components/info.js'
+import Header from '../components/header.js'
+import Footer from '../components/footer.js'
+import Testimonials from '../components/testimonials.js'
+import Career from '../components/career.js'
 
 export default () => {
-  const [counter, setCounter] = useState(0);
+    useEffect(() => {
+        document.title = 'Mullets | Portfolio'
+    }, []);
 
-  return (
-    <div className="App">
-      <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          width: '100%',
-          height: '100%'
-        }}>
-        
-        <h1> I am centered </h1>
-        
-        <p>
-          {counter}
-        </p>
-
-        <button class="sexy-button" onClick={() => {
-            setCounter(counter + 1)
-        }}>Click me!</button>
-      </div>
-
-      <div class="footer">this is my BANGER footer</div>
-    </div>
-  );
+    return (
+        <div class="app"  className="App">
+            <div class="panel">
+                <Header/>
+                <Info/>
+                <About/>
+                <Skills/>
+                <Testimonials/>
+                <Career/>
+                <Footer/>
+            </div>
+        </div>
+    )
 }

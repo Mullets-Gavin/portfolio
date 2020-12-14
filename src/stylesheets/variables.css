@@ -19,11 +19,12 @@
 
     --layout-full: 100%;
     --layout-percentage: calc(100% - 20px);
-    --layout-fill: calc(100% - 4rem - 20px);
     --layout-pixels: 1000px;
 
     --testimonails-pixels: 500px;
 
     --panel-corners: 8px;
     --button-corners: 1rem;
+
+    --panel-padding: 2rem;
 }

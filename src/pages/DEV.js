@@ -10,7 +10,7 @@ import Career from '../components/career.js'
 
 export default () => {
     useEffect(() => {
-        document.title = 'Mullets | Programmer & Game Designer'
+        document.title = 'Mullets | Portfolio'
     }, []);
 
     return (

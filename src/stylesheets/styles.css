@@ -10,6 +10,13 @@ body {
 	margin: 0;
 }
 
+.app {
+	background-color: var(--grey);
+	height: auto;
+	overflow: hidden;
+	font-size: 62.5%;
+}
+
 /*--------*/
 /* Header */
 /*--------*/
@@ -25,12 +32,10 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding-left: 1rem;
-	padding-right: 0.4rem;
 }
 
 .header-title {
 	color: var(--white);
-	font-size: 2rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -47,8 +52,7 @@ body {
 	background-color: var(--grey);
 	border: 2px solid var(--red);
 	border-radius: var(--panel-corners);
-	font-size: 1em;
-	margin-left: var(--button-margin);
+	margin-right: var(--button-margin);
 }
 
 .header-button:hover {
@@ -64,7 +68,7 @@ body {
 	right: 0px;
     left: 0px;
     bottom: 0;
-	width: var(--layout-percentage);
+	width: 100%;
 	height: var(--footer);
 }
 
@@ -104,7 +108,6 @@ body {
 
 .sexy-button {
 	display: flex;
-	font-size: 16px;
 	color: #000000;
 	margin: 4px 2px;
 	padding: 15px 32px;
@@ -123,13 +126,6 @@ body {
 /*----------*/
 /* Elements */
 /*----------*/
-
-.app {
-	background-color: var(--grey);
-	height: auto;
-	overflow: hidden;
-	font-size: 62.5%;
-}
 
 .panel {
 	height: auto;
@@ -168,7 +164,6 @@ body {
 
 .description-title {
 	text-align: center;
-	font-size: 36px;
 	font-weight: 900;
 	color: var(--white);
 	margin: 0 auto;
@@ -178,7 +173,6 @@ body {
 
 .description-content {
 	text-align: center;
-	font-size: 18px;
 	font-weight: 0;
 	color: var(--light);
 	margin: 0 auto;
@@ -206,7 +200,6 @@ body {
 
 .avatar-title {
 	padding-top: 0px;
-	font-size: 50px;
 	font-weight: 0;
 	color: var(--red);
 }
@@ -227,7 +220,6 @@ body {
 .about-content {
 	margin: 0 auto;
 	width: var(--layout-percentage);
-	font-size: 18px;
 	max-width: var(--layout-pixels);
 	height: auto;
 	align-items: center;
@@ -265,20 +257,25 @@ body {
 	padding-bottom: 4rem;
 }
 
-.skills-content {
+.skills-container {
 	background-color: var(--dark);
 	border-radius: var(--panel-corners);
 	align-items: center;
 	width: var(--layout-percentage);
 	height: auto;
 	margin: 0 auto;
-	justify-content: center;
-	display: flex;
 	text-align: center !important;
 }
 
+.skills-content {
+	width: auto;
+	height: auto;
+	padding: var(--panel-padding);
+	justify-content: center;
+	display: flex;
+}
+
 .skills-column {
-	padding: 4rem 2rem;
 	height: auto;
 	flex-grow: 3;
 	flex-basis: 0;
@@ -298,11 +295,13 @@ body {
 	margin: 0;
 	flex-grow: 3;
 	flex-basis: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .skills-img {
 	width: 4.5rem;
-	padding-bottom: 3rem;
+	padding-bottom: var(--panel-padding);
 	flex-grow: 3;
 	flex-basis: 0;
 }
@@ -339,7 +338,6 @@ body {
 .testimonials-content {
 	margin: 0 auto;
 	width: var(--layout-percentage);
-	font-size: 18px;
 	max-width: var(--layout-pixels);
 	height: auto;
 	align-items: center;
@@ -380,73 +378,47 @@ body {
 	margin-bottom: 0;
 }
 
-/*--------*/
-/* Career */
-/*--------*/
+/*------*/
+/* Work */
+/*------*/
 
-.career {
+.work {
 	color: var(--white);
-	height: auto;
+	width: var(--layout-percentage);
 	max-width: var(--layout-pixels);
-	height: var(--layout-full);
+	height: auto;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 4rem;
-	padding-bottom: 2rem;
 }
-
-/* .work-content {
-	background-color: var(--dark);
-	border-radius: var(--panel-corners);
-	height: auto;
-	width: var(--layout-fill);
-	margin: 0 auto 2rem 0;
-	padding: 1.5rem;
-
-	justify-content: center;
-	display: flex;
-	text-align: center !important;
-} */
-
-/* .work-content {
-	background-color: var(--dark);
-	border-radius: var(--panel-corners);
-	align-items: center;
-	width: var(--layout-percentage);
-	height: auto;
-	margin: 0 auto 4rem 0;
-	justify-content: center;
-	text-align: center !important;
-	padding: 2rem;
-} */
 
 .work-container {
 	background-color: var(--dark);
 	border-radius: var(--panel-corners);
 	align-items: center;
 	width: var(--layout-percentage);
-	max-width: var(--layout-pixels);
 	justify-content: center;
 	height: auto;
 	margin: 0 auto;
-	margin-bottom: 3rem;
+	display: flex;
 }
 
 .work-content {
-	width: auto;
-	height: auto;
-	align-items: center;
-	text-align: center !important;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
 }
 
 .work-header {
 	justify-content: space-between;
 	align-items: center;
-	width: auto;
+	width: 100%;
 	height: auto;
 	display: flex;
 	text-align: center !important;
-	padding: 2rem 4rem 0 4rem;
+}
+
+.work-title {
+	margin: 0;
 }
 
 .work-img {
@@ -457,8 +429,11 @@ body {
 
 .work-info {
 	text-align: left;
-	padding: 0 4rem 2rem 4rem;
 	height: auto;
+}
+
+.work-date {
+	margin-bottom: 0;
 }
 
 /*----------*/

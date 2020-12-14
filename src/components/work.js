@@ -6,7 +6,7 @@ export default (props) => {
             <work class="work-content">
                 <div class="work-header">
                     <img class="work-img" alt="Roblox" src={props.img}></img>
-                    <h2>{props.title}</h2>
+                    <h2 class="work-title">{props.title}</h2>
                 </div>
                 
                 <div class="work-info">
@@ -26,7 +26,7 @@ export default (props) => {
                         <li>{props.accomp3}</li>
                     </ul>
 
-                    <p>{props.date}</p>
+                    <p class="work-date">{props.date}</p>
                 </div>
             </work>
         </div>

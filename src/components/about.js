@@ -5,7 +5,7 @@ export default () => {
         <div class="about">
             <div class="about-content">
                 <h1 class="about-title">Hi, my name is Gavin Rosenthal</h1>
-                <h3 class="about-hint">You may also know me as Mullets!</h3>
+                <h3 class="about-hint">You may also know me as Mullets</h3>
 
                 <p class="about-body">
                     I've been an aspiring programmer and game designer ever since I was introduced to the game platform Roblox in 2013 at the
