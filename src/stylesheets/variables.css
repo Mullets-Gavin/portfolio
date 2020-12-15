@@ -3,7 +3,7 @@
     --secondary: #B7B7B7; /* 70% of primary */
     --optional: #888888; /* 50% of primary */
 
-    --button-padding: 0.8rem;
+    --button-padding: 0.6rem;
     --button-margin: 0.8rem;
     --button-fallback: 0.2rem;
 
