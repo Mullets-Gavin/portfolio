@@ -10,7 +10,7 @@ export default (props) => {
                 </div>
                 
                 <div class="work-info">
-                    <i>{props.info}</i>
+                    <i class="work-hint">{props.info}</i>
 
                     <h3>Description</h3>
                     <ul>

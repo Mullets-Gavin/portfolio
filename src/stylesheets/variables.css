@@ -1,6 +1,11 @@
 :root{
+    --primary: #FFFFFFFF;
+    --secondary: #B7B7B7; /* 70% of primary */
+    --optional: #888888; /* 50% of primary */
+
     --button-padding: 0.8rem;
-    --button-margin: 0.4rem;
+    --button-margin: 0.8rem;
+    --button-fallback: 0.1rem;
 
     --footer: 5rem;
     --footer-buttons: 6rem;
@@ -11,10 +16,10 @@
 
     --white: #FFFFFF;
     --light: #C6C6C6;
-    --grey: #36393F;
-    --dark: #292B2F;
+    --grey: #121212;
+    --dark: #232323;
     --black: #202225;
-    --red: #FF2B2E;
+    --red: #a20f0f;
     --blue: #1DA1F2;
 
     --layout-full: 100%;
@@ -32,4 +37,10 @@
     --column-padding: 1rem;
 
     --layout-font: 100%;
+
+    --shadow: #000000;
+    --shadow-size: 4px;
+    --shadow-blur: 8px;
+    --shadow-offset-v: 4px;
+    --shadow-offset-h: 0px
 }

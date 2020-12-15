@@ -107,27 +107,6 @@ h1 {
 	background: var(--blue);
 }
 
-/*------*/
-/* Sexy */
-/*------*/
-
-.sexy-button {
-	display: flex;
-	color: #000000;
-	margin: 4px 2px;
-	padding: 15px 32px;
-	display: inline-block;
-	transition-duration: 0.2s;
-	background-color: #ffffff;
-	border: 2px solid linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-	border-radius: var(--button-corners);
-}
-
-.sexy-button:hover {
-	background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-	color: white;
-}
-
 /*----------*/
 /* Elements */
 /*----------*/
@@ -170,7 +149,7 @@ h1 {
 .description-title {
 	text-align: center;
 	font-weight: 900;
-	color: var(--white);
+	color: var(--primary);
 	margin: 0 auto;
 	align-items: center;
 	padding-top: 100px;
@@ -179,7 +158,7 @@ h1 {
 .description-content {
 	text-align: center;
 	font-weight: 0;
-	color: var(--light);
+	color: var(--secondary);
 	margin: 0 auto;
 	align-items: center;
 	padding-top: 12px;
@@ -235,16 +214,16 @@ h1 {
 .about-title {
 	padding-top: 50px;
 	margin-bottom: 0;
-	color: var(--white);
+	color: var(--primary);
 }
 
 .about-hint {
 	margin-top: 0;
-	color: var(--white);
+	color: var(--primary);
 }
 
 .about-body {
-	color: var(--white);
+	color: var(--primary);
 }
 
 /*--------*/
@@ -252,7 +231,7 @@ h1 {
 /*--------*/
 
 .skills {
-	color: var(--white);
+	color: var(--primary);
 	height: auto;
 	max-width: var(--layout-pixels);
 	align-items: center;
@@ -270,6 +249,7 @@ h1 {
 	height: auto;
 	margin: 0 auto;
 	text-align: center !important;
+	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
 .skills-content {
@@ -292,14 +272,14 @@ h1 {
 }
 
 .skills-title {
-	color: var(--white);
+	color: var(--primary);
 	margin: 0;
 	flex-grow: 3;
 	flex-basis: 0;
 }
 
 .skills-body {
-	color: var(--white);
+	color: var(--primary);
 	margin: 0;
 	flex-grow: 3;
 	flex-basis: 0;
@@ -316,7 +296,7 @@ h1 {
 
 .skills-head {
 	padding-top: 30px;
-	color: var(--red);
+	color: var(--secondary);
 	margin: 0;
 	flex-grow: 3;
 	flex-basis: 0;
@@ -410,6 +390,7 @@ h1 {
 	height: auto;
 	margin: 0 auto;
 	display: flex;
+	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
 .work-content {
@@ -444,6 +425,10 @@ h1 {
 
 .work-date {
 	margin-bottom: 0;
+}
+
+.work-hint {
+	color: var(--secondary);
 }
 
 /*----------*/
@@ -513,5 +498,12 @@ h1 {
 
 	.work-header {
 		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.header-button {
+		margin-right: var(--button-fallback);
+		margin-left: var(--button-fallback);
 	}
 }
