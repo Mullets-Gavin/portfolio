@@ -5,10 +5,8 @@
 
     --button-padding: 0.8rem;
     --button-margin: 0.8rem;
-    --button-fallback: 0.1rem;
+    --button-fallback: 0.2rem;
 
-    --footer: 5rem;
-    --footer-buttons: 6rem;
     --footer-spacing: 1rem;
 
     --header: 3.2rem;
