@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 export default () => {
     return (
@@ -6,10 +7,10 @@ export default () => {
             <div class="footer-directory">
                 <div class="footer-content">
                     <div class="footer-buttons">
-                        <a class="footer-map" href="" rel="noreferrer" role="button">Home</a>
-                        <a class="footer-map" href="games" rel="noreferrer" role="button">Games</a>
-                        <a class="footer-map" href="software" rel="noreferrer" role="button">Software</a>
-                        <a class="footer-map" href="contact" rel="noreferrer" role="button">Contact</a>
+                        <Link activeClassName="footer-map" class="footer-map" to="/">Home</Link>
+                        <Link activeClassName="footer-map" class="footer-map" to="/games">Games</Link>
+                        <Link activeClassName="footer-map" class="footer-map" to="/software">Software</Link>
+                        <Link activeClassName="footer-map" class="footer-map" to="/contact">Contact</Link>
                     </div>
 
                     <hr class="footer-credit"/>

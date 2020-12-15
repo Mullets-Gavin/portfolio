@@ -4,7 +4,7 @@ import Footer from '../components/footer.js';
 
 export default () => {
     useEffect(() => {
-        document.title = 'Mullets | Games'
+        document.title = 'Mullets | Contact'
     }, []);
 
     return (

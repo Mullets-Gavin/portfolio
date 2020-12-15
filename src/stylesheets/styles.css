@@ -58,6 +58,7 @@ h1 {
 	border-radius: var(--panel-corners);
 	margin-right: var(--button-margin);
 	font-size: 90%;
+	text-decoration: none;
 }
 
 .header-button:hover {
@@ -214,12 +215,17 @@ h1 {
 	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
+.about-container {
+	max-width: var(--layout-pixels);
+	align-items: center;
+	margin: 0 auto;
+	display: flex;
+}
+
 .about-content {
 	margin: 0 auto;
 	width: var(--layout-percentage);
-	max-width: var(--layout-pixels);
 	height: auto;
-	align-items: center;
 	text-align: center;
 	padding-bottom: 5px;
 }

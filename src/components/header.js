@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 export default () => {
     return (
@@ -6,10 +7,10 @@ export default () => {
             <h2 class="header-title">Mullets.xyz</h2>
 
             <div>
-                <button class="header-button">Home</button>
-                <button class="header-button">Games</button>
-                <button class="header-button">Software</button>
-                <button class="header-button">Contact</button>
+                <Link activeClassName="header-button" class="header-button" to="/">Home</Link>
+                <Link activeClassName="header-button" class="header-button" to="/games">Games</Link>
+                <Link activeClassName="header-button" class="header-button" to="/software">Software</Link>
+                <Link activeClassName="header-button" class="header-button" to="/contact">Contact</Link>
             </div>
         </div>
     )
