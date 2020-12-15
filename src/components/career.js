@@ -6,7 +6,7 @@ import Roblox from '../images/roblox.png'
 export default () => {
     return (
         <div class="work">
-            <h1>Career</h1>
+            <h1 class="work-main">Career</h1>
 
             <Work
                 img={Roblox}

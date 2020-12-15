@@ -10,6 +10,10 @@ body {
 	margin: 0;
 }
 
+h1 {
+	margin-top: 0;
+}
+
 .app {
 	background-color: var(--grey);
 	height: auto;
@@ -40,13 +44,14 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
+	width: auto;
 }
 
 .header-button {
 	display: flex;
 	color: var(--white);
 	padding: var(--button-padding);
-	height: 100%;
+	height: auto;
 	display: inline-block;
 	transition-duration: 0.2s;
 	background-color: var(--grey);
@@ -68,28 +73,10 @@ body {
 	position: initial;
 	width: 100%;
 	height: auto;
-	margin-top: 10rem;
-}
-
-.footer-container {
-	max-width: var(--layout-pixels);
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	margin: 0 auto;
-}
-
-.footer-dir {
-	background-color: var(--dark);
-	width: var(--layout-percentage);
-	height: auto;
-	border-radius: var(--panel-corners);
-	text-align: center;
 }
 
 .footer-content {
 	display: flex;
-	
 	align-items: center;
 	margin: 0 auto;
 	padding-top: var(--footer-spacing);
@@ -272,8 +259,8 @@ body {
 	align-items: center;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 3rem;
-	padding-bottom: 4rem;
+	padding-top: var(--layout-spacing);
+	padding-bottom: var(--layout-spacing);
 }
 
 .skills-container {
@@ -411,6 +398,8 @@ body {
 	height: auto;
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: var(--layout-spacing);
+	margin-top: var(--layout-spacing);
 }
 
 .work-container {
@@ -496,4 +485,28 @@ body {
 	padding: 0 !important;
 	height: 16px !important;
 	width: 16px !important;
+}
+
+/*---------------*/
+/* Media Queries */
+/*---------------*/
+
+@media only screen and (max-width: 600px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.skills-content {
+		flex-direction: column;
+	}
+
+	.skills-column {
+		width: auto;
+		margin-bottom: var(--column-padding);
+		margin-top: var(--column-padding);
+	}
+
+	.work-header {
+		flex-direction: column;
+	}
 }

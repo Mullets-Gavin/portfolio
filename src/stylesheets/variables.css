@@ -21,12 +21,15 @@
     --layout-percentage: calc(100% - 20px);
     --layout-pixels: 1000px;
 
+    --layout-spacing: 6rem;
+
     --testimonails-pixels: 500px;
 
     --panel-corners: 8px;
     --button-corners: 1rem;
 
     --panel-padding: 2rem;
+    --column-padding: 1rem;
 
     --layout-font: 100%;
 }
