@@ -48,7 +48,6 @@ h1 {
 }
 
 .header-button {
-	display: flex;
 	color: var(--white);
 	padding: var(--button-padding);
 	height: auto;
@@ -494,10 +493,12 @@ h1 {
 @media only screen and (max-width: 600px) {
 	.header {
 		flex-direction: column;
+		padding-left: 0;
 	}
 
 	.header-button {
-		
+		margin-right: calc(var(--button-margin) * 0.5);
+		margin-left: calc(var(--button-margin) * 0.5);
 	}
 
 	.skills-content {
