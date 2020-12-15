@@ -31,7 +31,7 @@ h1 {
 	max-width: var(--layout-pixels);
 	height: auto;
 	color: var(--white);
-	font-weight: 900;
+	font-weight: var(--font-weight);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -76,6 +76,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
 .footer-content {
@@ -95,7 +96,7 @@ h1 {
 }
 
 .footer-credit {
-	color: var(--secondary);
+	color: var(--primary);
 	text-align: center;
 }
 
@@ -104,21 +105,18 @@ h1 {
 }
 
 .footer-title {
-	color: var(--white);
+	color: var(--primary);
 }
 
 .footer-map {
-	color: var(--secondary);
+	color: var(--primary);
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: var(--font-weight);
 }
 
 .footer-map:hover {
 	color: var(--primary);
-}
-
-.footer-button:hover {
-	background: var(--blue);
+	text-decoration: underline;
 }
 
 /*----------*/
@@ -162,7 +160,7 @@ h1 {
 
 .description-title {
 	text-align: center;
-	font-weight: 900;
+	font-weight: var(--font-weight);
 	color: var(--primary);
 	margin: 0 auto;
 	align-items: center;
@@ -213,6 +211,7 @@ h1 {
 	margin: 0 auto;
 	height: auto;
 	padding-bottom: 40px;
+	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
 .about-content {
@@ -335,6 +334,7 @@ h1 {
 	margin: 0 auto;
 	height: auto;
 	padding-bottom: 40px;
+	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
 }
 
 .testimonials-content {

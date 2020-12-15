@@ -40,5 +40,7 @@
     --shadow-size: 4px;
     --shadow-blur: 8px;
     --shadow-offset-v: 4px;
-    --shadow-offset-h: 0px
+    --shadow-offset-h: 0px;
+
+    --font-weight: 900;
 }
