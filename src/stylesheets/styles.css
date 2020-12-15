@@ -496,6 +496,10 @@ h1 {
 		flex-direction: column;
 	}
 
+	.header-button {
+		
+	}
+
 	.skills-content {
 		flex-direction: column;
 	}
