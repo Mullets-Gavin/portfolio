@@ -3,6 +3,7 @@ import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import '../stylesheets/styles.css';
 import Overview from '../components/overview.js';
+import Contact from '../components/contact.js'
 
 export default () => {
     useEffect(() => {
@@ -20,6 +21,7 @@ export default () => {
                     I felt I should include. If you're interested in working with me in any form, please feel
                     free to reach out!"
                 />
+                <Contact/>
 
                 <Footer/>
             </div>
