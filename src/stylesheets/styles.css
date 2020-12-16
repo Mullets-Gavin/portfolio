@@ -19,7 +19,6 @@ h1 {
 	height: auto;
 	overflow: hidden;
 	font-size: var(--layout-font);
-	min-height: 5000px;
 }
 
 /*--------*/
