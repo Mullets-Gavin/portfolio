@@ -3,6 +3,7 @@ import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import '../stylesheets/styles.css';
 import Overview from '../components/overview.js';
+import Software from '../components/software.js';
 
 export default () => {
     useEffect(() => {
@@ -16,10 +17,11 @@ export default () => {
 
                 <Overview
                     title="Beautiful Open Source Software"
-                    body="My collection of titles were games I created, helped develop, or have works included in.
-                    Tasks I was to do for these games included general programming, systems programming,
-                    and user-interface."
+                    body="My featured software I've developed and open sourced on my Github. I use each and every module
+                    I open source and I thoroughly test my code before doing so. I hope you find my collection
+                    of code to be of use!"
                 />
+                <Software/>
 
                 <Footer/>
             </div>

@@ -554,6 +554,10 @@ h1 {
 	width: auto;
 }
 
+.content-hint {
+	color: var(--secondary);
+}
+
 /*---------------*/
 /* Media Queries */
 /*---------------*/

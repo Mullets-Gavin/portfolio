@@ -7,7 +7,7 @@ export default (props) => {
 
             <div class="content-body">
                 <h1 class="content-title">{props.name}</h1>
-                <i>{props.tldr}</i>
+                <i class="content-hint">{props.tldr}</i>
                 
                 <div class="content-gap"/>
                 

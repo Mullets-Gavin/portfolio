@@ -21,7 +21,6 @@ export default () => {
                     Tasks I was to do for these games included general programming, systems programming,
                     and user-interface."
                 />
-
                 <Games/>
 
                 <Footer/>
