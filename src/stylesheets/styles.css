@@ -582,7 +582,7 @@ h1 {
 	color: var(--primary);
 	transition: 0.2s;
 	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
-	object-fit:cover;
+	object-fit: fill;
 	margin: var(--column-padding);
 }
 
