@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 export default () => {
     return (
-        <div class="footer">
+        <footer class="footer">
             <div class="footer-directory">
                 <div class="footer-content">
                     <div class="footer-buttons">
@@ -20,6 +20,6 @@ export default () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }

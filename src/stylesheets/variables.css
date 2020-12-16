@@ -11,6 +11,7 @@
 
     --header: 3.2rem;
     --header-pad: 24px;
+    --header-margin: 5rem;
 
     --white: #FFFFFF;
     --light: #C6C6C6;
@@ -19,6 +20,7 @@
     --black: #202225;
     --red: #a20f0f;
     --blue: #1DA1F2;
+    --lighter: #333333;
 
     --layout-full: 100%;
     --layout-percentage: calc(100% - 20px);

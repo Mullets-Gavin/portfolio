@@ -22,7 +22,9 @@ export default () => {
                 accomp2="Developed a Lua library loader to streamline development"
                 accomp3="Created various open source packages for Roblox gamedev"
             />
+            
             <br/>
+
             <Work
                 img={Roblox}
                 title="Volunteer"
@@ -37,7 +39,6 @@ export default () => {
                 accomp2="Worked with Roblox directly to contribute to the forums"
                 accomp3="Met new people & had a great time"
             />
-
         </div>
     )
 }
