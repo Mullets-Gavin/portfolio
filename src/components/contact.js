@@ -39,7 +39,7 @@ export default () => {
                 <Application
                     img={MafiaDev}
                     name="Mullet Mafia Dev"
-                    link="https://discord.gg/dZYyvBu"
+                    link="https://discord.gg/dqvMK4HXde"
                 />
             </div>
             <div class="email">
