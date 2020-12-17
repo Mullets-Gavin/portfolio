@@ -3,7 +3,7 @@
   "private": true,
   "description": "An overview of all my work",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -11,7 +11,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
   },
   "dependencies": {
@@ -32,6 +31,6 @@
     "url": "https://github.com/Mullets-Gavin/mullets-gavin.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Mullets-Gavin/Mullets-Gavin.github.io/issues"
   }
 }
