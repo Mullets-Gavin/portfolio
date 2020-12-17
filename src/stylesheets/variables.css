@@ -39,11 +39,12 @@
     --layout-font: 100%;
     --layout-divide: 0.5rem;
 
-    --shadow: #000000;
-    --shadow-size: 4px;
+    --shadow-color: #000000;
+    --shadow-size: 1px;
     --shadow-blur: 8px;
-    --shadow-offset-v: 4px;
+    --shadow-offset-v: 2px;
     --shadow-offset-h: 0px;
+    --shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow-color);
 
     --font-weight: 900;
 }

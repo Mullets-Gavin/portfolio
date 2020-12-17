@@ -1,8 +1,7 @@
 import React, { useState }  from "react"
 import axios from "axios";
 
-const MyForm = () => {
-    
+export default () => {
     const [serverState, setServerState] = useState({
         submitting: false,
         status: null
@@ -19,18 +18,18 @@ const MyForm = () => {
         }
     };
 
-    const handleOnSubmit = e => {
-      e.preventDefault();
-      const form = e.target;
-      setServerState({ submitting: true });
-      axios({
-        method: "post",
-        url: "https://getform.io/f/d0178a7d-0a4d-49cc-addd-3dd35aa38039",
-        data: new FormData(form)
-      }).then(r => {
-          handleServerResponse(true, "Thanks!", form);
-        }).catch(r => {
-          handleServerResponse(false, r.response.data.error, form);
+    const handleOnSubmit = event => {
+        event.preventDefault();
+        const form = event.target;
+        setServerState({ submitting: true });
+        axios({
+            method: "post",
+            url: "https://getform.io/f/d0178a7d-0a4d-49cc-addd-3dd35aa38039",
+            data: new FormData(form)
+        }).then(data => {
+            handleServerResponse(true, "Thanks!", form);
+        }).catch(data => {
+            handleServerResponse(false, data.response.data.error, form);
         });
     };
 
@@ -42,14 +41,14 @@ const MyForm = () => {
             <form onSubmit={handleOnSubmit}>
                 <div class="email-group">
                     <h2
+                        class="email-title"
                         for="inputEmail"
                         required="required"
-                        class="email-title"
                     >Email address</h2>
                     <input
+                        class="email-body"
                         type="email"
                         name="email"
-                        class="email-body"
                         id="inputEmail"
                         placeholder="Enter email"
                         required="required"
@@ -58,13 +57,14 @@ const MyForm = () => {
 
                 <div class="email-group">
                     <h2
-                        for="inputName"
                         class="email-title"
+                        for="inputName"
+                        required="required"
                     >Name</h2>
                     <input
+                        class="email-body"
                         type="text"
                         name="name"
-                        class="email-body"
                         id="inputName"
                         placeholder="Enter your name"
                         required="required"
@@ -73,20 +73,21 @@ const MyForm = () => {
 
                 <div class="email-group">
                     <h2
-                        for="inputBody"
                         class="email-title"
+                        for="inputBody"
+                        required="required"
                     >Body</h2>
-                    <textarea 
-                        type="text"
-                        name="name"
+                    <textarea
                         class="email-msg"
+                        type="text"
+                        name="message"
                         id="inputBody"
                         placeholder="Enter your message"
                         required="required"
                     />
                 </div>
 
-                <button type="submit" className="email-button"  disabled={serverState.submitting}>
+                <button class="email-button" type="submit"  disabled={serverState.submitting}>
                     Submit
                 </button>
 
@@ -98,6 +99,4 @@ const MyForm = () => {
             </form>
         </div>
     );
-  };
-  
-  export default MyForm;
+};

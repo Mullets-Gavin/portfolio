@@ -77,7 +77,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .footer-content {
@@ -190,6 +190,7 @@ h1 {
 	border-radius: 50%;
 	height: 300px;
 	width: 300px;
+	box-shadow: var(--shadow);
 }
 
 .avatar-title {
@@ -209,7 +210,7 @@ h1 {
 	margin: 0 auto;
 	height: auto;
 	padding-bottom: 40px;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .about-container {
@@ -264,8 +265,8 @@ h1 {
 	width: var(--layout-percentage);
 	height: auto;
 	margin: 0 auto;
-	text-align: center !important;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	text-align: center;
+	box-shadow: var(--shadow);
 }
 
 .skills-content {
@@ -337,7 +338,7 @@ h1 {
 	margin: 0 auto;
 	height: auto;
 	padding-bottom: 40px;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .testimonials-content {
@@ -407,7 +408,7 @@ h1 {
 	height: auto;
 	margin: 0 auto;
 	display: flex;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .work-content {
@@ -422,7 +423,7 @@ h1 {
 	width: 100%;
 	height: auto;
 	display: flex;
-	text-align: center !important;
+	text-align: center;
 }
 
 .work-title {
@@ -517,7 +518,7 @@ h1 {
 	object-fit: cover;
 	margin: 0 auto;
 	transition: 0.2s;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .content-container:hover {
@@ -580,7 +581,7 @@ h1 {
 	height: 6rem;
 	color: var(--primary);
 	transition: 0.2s;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 	object-fit: fill;
 	margin: var(--column-padding);
 }
@@ -616,7 +617,7 @@ h1 {
 	height: auto;
 	margin: 0 auto;
 	display: flex;
-	box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow);
+	box-shadow: var(--shadow);
 }
 
 .email-content {
