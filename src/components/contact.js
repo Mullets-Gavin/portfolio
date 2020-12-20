@@ -6,7 +6,7 @@ import Twitter from '../images/twitter.png'
 import LinkedIn from '../images/linkedin.png'
 import Github from '../images/github.png'
 import DevForum from '../images/devforum.png'
-import MafiaDev from '../images/mafiadev.png'
+import Discord from '../images/discord.png'
 
 export default () => {
     return (
@@ -37,8 +37,8 @@ export default () => {
                 />
 
                 <Application
-                    img={MafiaDev}
-                    name="Mullet Mafia Dev"
+                    img={Discord}
+                    name="Discord"
                     link="https://discord.gg/dqvMK4HXde"
                 />
             </div>

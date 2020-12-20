@@ -1,9 +1,14 @@
 import React from 'react';
 
 export default (props) => {
+    let Image;
+    if (props.img) {
+        Image = <img class="content-img" alt={props.name} src={props.img}/>
+    }
+
     return (
         <a class="content-container" href={props.link} rel="noreferrer" target="_blank">
-            <img class="content-img" alt={props.name} src={props.img}></img>
+            {Image}
 
             <div class="content-body">
                 <h1 class="content-title">{props.name}</h1>
