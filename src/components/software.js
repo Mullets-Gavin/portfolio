@@ -22,14 +22,15 @@ export default () => {
 
             <Content
                 name="Mullets.xyz"
-                tldr="This site, My custom portfolio website created from scratch using React, Gatsby, and Github Pages."
+                tldr="This site, my custom portfolio website created from scratch using React, Gatsby, and Github Pages."
                 link="https://github.com/Mullets-Gavin/Mullets.xyz"
                 title1="About"
                 about="My first attempt at creating a website. Learned how to deploy sites, use package
-                managers, and learned JavaScript, CSS, & React."
+                managers, and learned JavaScript, CSS, & React. Works on all devices & browsers, and designed
+                to be sleek, elegant, and graceful."
                 title2="Features"
                 stats1="Utilized Gatsby, an open source framework based on React"
-                stats2="Wrote blazing-fast code in JSX - a JavaScript & Html hybrid lang"
+                stats2="Wrote blazing-fast code in JSX - a JavaScript & Html hybrid programming language"
                 stats3="Utilized numerous npm commands & used git for source control"
             />
 
