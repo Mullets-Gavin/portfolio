@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/Mullets-Gavin.github.io",
+  pathPrefix: "/Mullets.xyz",
   siteMetadata: {
     title: "Gavin"
   },

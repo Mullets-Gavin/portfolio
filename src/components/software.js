@@ -1,10 +1,5 @@
 import React from 'react';
-import Content from './content.js'
-
-// import Loader from '../images/loader.png'
-// import Roblox from '../images/robloxmodules.png'
-// import Manager from '../images/manager.png'
-// import Network from '../images/network.png'
+import Content from './content.js';
 
 export default () => {
     return (
@@ -21,6 +16,21 @@ export default () => {
                 stats1="Lazy-load modules by strings"
                 stats2="Import Roblox services quickly"
                 stats3="Libraries for DataStores, Interface, and more"
+            />
+
+            <br/>
+
+            <Content
+                name="Mullets.xyz"
+                tldr="This site, My custom portfolio website created from scratch using React, Gatsby, and Github Pages."
+                link="https://github.com/Mullets-Gavin/Mullets.xyz"
+                title1="About"
+                about="My first attempt at creating a website. Learned how to deploy sites, use package
+                managers, and learned JavaScript, CSS, & React."
+                title2="Features"
+                stats1="Utilized Gatsby, an open source framework based on React"
+                stats2="Wrote blazing-fast code in JSX - a JavaScript & Html hybrid lang"
+                stats3="Utilized numerous npm commands & used git for source control"
             />
 
             <br/>
