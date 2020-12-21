@@ -60,10 +60,10 @@ export default () => {
                         <br/>
 
                         <p class="skills-body">
-                            A high understanding & proficiency of how commonly used software libraries and tooling is used.
+                            A high understanding & proficiency of how commonly used software technologies is used.
                         </p>
 
-                        <h3 class="skills-head">Libraries & Tooling:</h3>
+                        <h3 class="skills-head">Technologies:</h3>
 
                         <ul class="skills-list">
                             <li>React</li>
