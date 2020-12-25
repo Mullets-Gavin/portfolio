@@ -64,7 +64,7 @@ export default () => {
 								fontSize: '30%',
 							}} // 
 						>
-							i'm too lazy to make a giftcard, so here
+							i'm too lazy to make a giftcard, so here (refresh!)
 						</i>
 						<br/>
 						<i>{Holiday}</i>
