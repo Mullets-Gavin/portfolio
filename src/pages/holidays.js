@@ -15,20 +15,19 @@ var Options = {
 	],
 };
 
-export default () => {
-	let holiday =
-		Options[Month][Math.floor(Math.random() * Options[Month].length)];
+const Holiday = Options[Month][Math.floor(Math.random() * Options[Month].length)];
 
+export default () => {
 	useEffect(() => {
-		document.title = holiday;
+		document.title = Holiday;
 	}, []);
 
 	return (
 		<body
 			className='Holidays'
 			style={{
-				color: 'white',
-				backgroundColor: '#FFFFFF',
+				color: '#0CB04A',
+				backgroundColor: '#86D3E4', // 0A7533
 				fontFamily: 'fantasy',
 				margin: '0',
 			}}
@@ -50,7 +49,6 @@ export default () => {
 					<h1
 						style={{
 							margin: '0',
-							color: '#121212',
 							width: 'auto',
 							height: 'auto',
 							position: 'absolute',
@@ -60,10 +58,19 @@ export default () => {
 							textAlign: 'center',
 						}}
 					>
-						<i>{holiday}</i>
+						<i
+							style={{
+								color: '#FFFFFF',
+								fontSize: '30%',
+							}} // 
+						>
+							i'm too lazy to make a giftcard, so here
+						</i>
+						<br/>
+						<i>{Holiday}</i>
 						<p
 							style={{
-								color: '#a20f0f',
+								color: '#FF3A2F',
 								fontSize: '50%',
 							}}
 						>
