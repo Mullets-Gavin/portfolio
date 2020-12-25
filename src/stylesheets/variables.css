@@ -1,50 +1,51 @@
-:root{
-    --primary: #FFFFFFFF;
-    --secondary: #B7B7B7; /* 70% of primary */
-    --optional: #888888; /* 50% of primary */
+:root {
+	--primary: #ffffffff;
+	--secondary: #b7b7b7; /* 70% of primary */
+	--optional: #888888; /* 50% of primary */
 
-    --button-padding: 0.6rem;
-    --button-margin: 0.8rem;
-    --button-fallback: 0.2rem;
+	--button-padding: 0.6rem;
+	--button-margin: 0.8rem;
+	--button-fallback: 0.2rem;
 
-    --footer-spacing: 1rem;
+	--footer-spacing: 1rem;
 
-    --header: 3.2rem;
-    --header-pad: 24px;
-    --header-margin: 5rem;
+	--header: 3.2rem;
+	--header-pad: 24px;
+	--header-margin: 5rem;
 
-    --white: #FFFFFF;
-    --light: #C6C6C6;
-    --grey: #121212;
-    --dark: #232323;
-    --black: #202225;
-    --red: #a20f0f;
-    --blue: #1DA1F2;
-    --lighter: #333333;
+	--white: #ffffff;
+	--light: #c6c6c6;
+	--grey: #121212;
+	--dark: #232323;
+	--black: #202225;
+	--red: #a20f0f;
+	--blue: #1da1f2;
+	--lighter: #333333;
 
-    --layout-full: 100%;
-    --layout-percentage: calc(100% - 20px);
-    --layout-pixels: 1000px;
+	--layout-full: 100%;
+	--layout-percentage: calc(100% - 20px);
+	--layout-pixels: 1000px;
 
-    --layout-spacing: 6rem;
+	--layout-spacing: 6rem;
 
-    --testimonails-pixels: 500px;
+	--testimonails-pixels: 500px;
 
-    --panel-corners: 8px;
-    --button-corners: 1rem;
+	--panel-corners: 8px;
+	--button-corners: 1rem;
 
-    --panel-padding: 2rem;
-    --column-padding: 1rem;
+	--panel-padding: 2rem;
+	--column-padding: 1rem;
 
-    --layout-font: 100%;
-    --layout-divide: 0.5rem;
+	--layout-font: 100%;
+	--layout-divide: 0.5rem;
 
-    --shadow-color: #000000;
-    --shadow-size: 1px;
-    --shadow-blur: 8px;
-    --shadow-offset-v: 2px;
-    --shadow-offset-h: 0px;
-    --shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur) var(--shadow-size) var(--shadow-color);
+	--shadow-color: #000000;
+	--shadow-size: 1px;
+	--shadow-blur: 8px;
+	--shadow-offset-v: 2px;
+	--shadow-offset-h: 0px;
+	--shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur)
+		var(--shadow-size) var(--shadow-color);
 
-    --font-weight: 900;
+	--font-weight: 900;
 }

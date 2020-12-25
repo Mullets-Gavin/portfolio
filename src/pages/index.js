@@ -9,23 +9,23 @@ import Testimonials from '../components/testimonials.js';
 import Career from '../components/career.js';
 
 export default () => {
-    useEffect(() => {
-        document.title = 'Mullets | Portfolio'
-    }, []);
+	useEffect(() => {
+		document.title = 'Mullets | Portfolio';
+	}, []);
 
-    return (
-        <div class="app"  className="App">
-            <div class="panel">
-                <Header/>
+	return (
+		<div class='app' className='App'>
+			<div class='panel'>
+				<Header />
 
-                <Info/>
-                <About/>
-                <Skills/>
-                <Testimonials/>
-                <Career/>
-                
-                <Footer/>
-            </div>
-        </div>
-    )
-}
+				<Info />
+				<About />
+				<Skills />
+				<Testimonials />
+				<Career />
+
+				<Footer />
+			</div>
+		</div>
+	);
+};
