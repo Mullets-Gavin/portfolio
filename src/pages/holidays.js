@@ -62,11 +62,11 @@ export default () => {
 							style={{
 								color: '#FFFFFF',
 								fontSize: '30%',
-							}} // 
+							}} //
 						>
 							i'm too lazy to make a giftcard, so here (refresh!)
 						</i>
-						<br/>
+						<br />
 						<i>{Holiday}</i>
 						<p
 							style={{
