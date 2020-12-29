@@ -369,7 +369,7 @@ h1 {
 
 .testimonials-item {
 	width: 100%;
-	max-width: var(--testimonails-pixels);
+	max-width: var(--testimonials-pixels);
 	height: 100%;
 }
 
