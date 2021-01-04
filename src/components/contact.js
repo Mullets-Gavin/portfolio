@@ -7,6 +7,7 @@ import LinkedIn from '../images/linkedin.png';
 import Github from '../images/github.png';
 import DevForum from '../images/devforum.png';
 import Discord from '../images/discord.png';
+import Coffee from '../images/coffee.png';
 
 export default () => {
 	return (
@@ -40,6 +41,12 @@ export default () => {
 					img={Discord}
 					name='Discord'
 					link='https://discord.gg/dqvMK4HXde'
+				/>
+
+				<Application
+					img={Coffee}
+					name='BuyMeACoffee'
+					link='https://www.buymeacoffee.com/mullets'
 				/>
 			</div>
 			<div class='email'>
