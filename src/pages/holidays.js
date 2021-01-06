@@ -15,7 +15,7 @@ var Options = {
 	],
 };
 
-const Holiday = Options[Month][Math.floor(Math.random() * Options[Month].length)];
+const Holiday =	Options[Month][Math.floor(Math.random() * Options[Month].length)];
 
 export default () => {
 	useEffect(() => {
