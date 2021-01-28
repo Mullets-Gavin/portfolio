@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
 export default (props) => {
 	return (
-		<div class='work-container'>
-			<work class='work-content'>
-				<div class='work-header'>
-					<img class='work-img' alt='Roblox' src={props.img}></img>
-					<h2 class='work-title'>{props.title}</h2>
+		<div class="work-container">
+			<work class="work-content">
+				<div class="work-header">
+					<img class="work-img" alt="Roblox" src={props.img}></img>
+					<h2 class="work-title">{props.title}</h2>
 				</div>
 
-				<div class='work-info'>
-					<i class='work-hint'>{props.info}</i>
+				<div class="work-info">
+					<i class="work-hint">{props.info}</i>
 
 					<h3>Description</h3>
 					<ul>
@@ -26,7 +26,7 @@ export default (props) => {
 						<li>{props.accomp3}</li>
 					</ul>
 
-					<p class='work-date'>{props.date}</p>
+					<p class="work-date">{props.date}</p>
 				</div>
 			</work>
 		</div>
