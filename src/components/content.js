@@ -49,7 +49,7 @@ export default (props) => {
 			{Image}
 
 			<div class="content-body">
-				<h1 class="content-title">{props.name}</h1>
+				<h1 class="content-title">{props.name.concat(" 🔗")}</h1>
 				<i class="content-hint">{props.tldr}</i>
 
 				<div class="content-gap" />

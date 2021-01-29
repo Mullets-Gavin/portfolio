@@ -19,6 +19,8 @@ export default () => {
 				lang="Lua"
 			/>
 
+			<br />
+
 			<Content
 				name="Components"
 				tldr="An open source UI project written in Roblox TypeScript utilizing TSX."
@@ -33,8 +35,6 @@ export default () => {
 				stats3="A template to learn and explore from"
 				lang="TypeScript"
 			/>
-
-			<br />
 
 			<br />
 
