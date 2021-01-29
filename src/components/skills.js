@@ -31,6 +31,7 @@ export default () => {
 						<ul class="skills-list">
 							<li>Lua</li>
 							<li>JavaScript</li>
+							<li>TypeScript</li>
 							<li>Python</li>
 							<li>CSS</li>
 							<li>HTML</li>
@@ -59,6 +60,7 @@ export default () => {
 							<li>Creativity</li>
 							<li>Collaborative</li>
 							<li>Passionate</li>
+							<li>Project Management</li>
 							<li>Time Management</li>
 							<li>Microsoft PlayFab</li>
 						</ul>
@@ -85,8 +87,9 @@ export default () => {
 							<li>React</li>
 							<li>Terminal</li>
 							<li>Git</li>
-							<li>GSuite</li>
+							<li>CLI</li>
 							<li>Roblox</li>
+							<li>Google Workspace</li>
 						</ul>
 					</div>
 				</div>

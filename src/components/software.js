@@ -29,7 +29,7 @@ export default () => {
 				about="Components was created to help provide an open source project to help educate and
 				improve your skills with Roblox-TS using TSX. The project contains source code for creating
 				a basic shop and inventory system for your Roblox game."
-				title2="Core Features"
+				title2="Educational Template"
 				stats1="TypeScript support for Roblox UI utilizing TSX"
 				stats2="Completely open source and free for commercial use"
 				stats3="A template to learn and explore from"
@@ -51,6 +51,23 @@ export default () => {
 				stats2="Wrote blazing-fast code in JSX - a JavaScript & Html hybrid programming language"
 				stats3="Utilized numerous npm commands & used git for source control"
 				lang="JavaScript"
+			/>
+
+			<br />
+
+			<Content
+				name="Deliver"
+				tldr="A Roblox command line interface plugin to deliver content, commands, and simplicity within Roblox studio."
+				link="https://github.com/Mullets-Gavin/Deliver"
+				title1="About"
+				about="Deliver is a Roblox-based command line interface (CLI) using the native Output & Command Bar.
+				Currently, Roblox provides no proper way to manipulate your game from a command line, and doesn’t
+				have a proper package manager. Deliver aims to solve this solution with a work around, using the output & command bar."
+				title2="Phenomenal Design"
+				stats1="Extremely simple commands"
+				stats2="Light-weight, utilizes Robloxs Command Line and Output tools"
+				stats3="An insanely great list of tooling to streamline development"
+				lang="Lua"
 			/>
 
 			<br />

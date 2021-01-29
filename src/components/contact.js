@@ -7,6 +7,7 @@ import LinkedIn from "../images/linkedin.png";
 import Github from "../images/github.png";
 import DevForum from "../images/devforum.png";
 import Discord from "../images/discord.png";
+import Letterboxd from "../images/letterboxd.png";
 import Coffee from "../images/coffee.png";
 
 export default () => {
@@ -41,6 +42,12 @@ export default () => {
 					img={Discord}
 					name="Discord"
 					link="https://discord.gg/dqvMK4HXde"
+				/>
+
+				<Application
+					img={Letterboxd}
+					name="Letterboxd"
+					link="https://letterboxd.com/Mullets/"
 				/>
 
 				<Application
