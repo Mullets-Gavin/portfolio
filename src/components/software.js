@@ -19,6 +19,23 @@ export default () => {
 				lang="Lua"
 			/>
 
+			<Content
+				name="Components"
+				tldr="An open source UI project written in Roblox TypeScript utilizing TSX."
+				link="https://github.com/Mullets-Gavin/Components"
+				title1="About"
+				about="Components was created to help provide an open source project to help educate and
+				improve your skills with Roblox-TS using TSX. The project contains source code for creating
+				a basic shop and inventory system for your Roblox game."
+				title2="Core Features"
+				stats1="TypeScript support for Roblox UI utilizing TSX"
+				stats2="Completely open source and free for commercial use"
+				stats3="A template to learn and explore from"
+				lang="TypeScript"
+			/>
+
+			<br />
+
 			<br />
 
 			<Content

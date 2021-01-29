@@ -27,6 +27,15 @@ export default (props) => {
 					Written in {props.lang}
 				</h3>
 			);
+		} else if (props.lang === "TypeScript") {
+			Lang = (
+				<h3
+					class="content-title"
+					style={{ color: "#2B7489", marginTop: "1rem" }}
+				>
+					Written in {props.lang}
+				</h3>
+			);
 		}
 	}
 
