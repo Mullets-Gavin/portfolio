@@ -2,6 +2,7 @@ import React from "react";
 import Work from "./work.js";
 
 import Roblox from "../images/roblox.png";
+import MulletMafia from "../images/mulletmafia.png";
 
 export default () => {
 	return (
@@ -19,6 +20,21 @@ export default () => {
 				accomp1="Voice the communities concerns and requests to prioritize what's desired"
 				accomp2="Create exciting experiences with opportunities provided & relay feedback"
 				accomp3="Develop connections with product management and other employees"
+			/>
+
+			<br />
+
+			<Work
+				img={MulletMafia}
+				title="Founder / CEO"
+				date="Dec 2020 - Present"
+				info="Mullet Mafia is a development team on Roblox creating content and fun games"
+				desc1="Design experiences for millions of players"
+				desc2="Lead various projects to success by utilizing analytics and social features"
+				desc3="Create and manage projects with a team of developers"
+				accomp1="Over 25,000,000+ plays between games"
+				accomp2="Designed, tested, and released unique experiences to the Roblox platform"
+				accomp3="Collaborated with numerous developers on partnerships or events"
 			/>
 
 			<br />
