@@ -722,7 +722,9 @@ h1 {
 	.content-container {
 		flex-direction: column;
 	}
+}
 
+@media only screen and (max-width: 900px) {
 	.contact {
 		align-items: center;
 		flex-direction: column;
