@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "./content.js";
 
+import Armtastic from "../images/armtastic.png";
 import Captive from "../images/captive.png";
 import CaseRush from "../images/caserush.png";
 import Spellcaster from "../images/spellcaster.png";
@@ -8,6 +9,22 @@ import Spellcaster from "../images/spellcaster.png";
 export default () => {
 	return (
 		<div class="games">
+			<Content
+				img={Armtastic}
+				name="Armtastic"
+				tldr="🥊 Launch your trusty ball at objects and players to gain credits and dominate the scoreboard! 💰"
+				link="https://www.roblox.com/games/6242582774/Armtastic"
+				title1="Role"
+				about="Lead project manager and programmer. I was tasked with managing Armtastic and programming the UI
+				seen in the game, utilizing Roblox-TS to write React-like code with Roact, a Lua version of React."
+				title2="Accomplishments"
+				stats1="Created the game under one month"
+				stats2="A large codebase that can withstand upto 50 player servers"
+				stats3="All user-interface works on all platforms, including Mobile and Xbox"
+			/>
+			
+			<br />
+			
 			<Content
 				img={Captive}
 				name="Captive"
@@ -17,7 +34,7 @@ export default () => {
 				about="Co-owner & lead programmer. My job was to program all of Captive, which included
                 custom physics, seamless interface, and a custom movement system."
 				title2="Accomplishments"
-				stats1="Breakout game, 27.5m+ plays"
+				stats1="Breakout game, 30m+ plays"
 				stats2="Heavily polished systems and gameplay"
 				stats3="Interface that works on all platforms"
 			/>
