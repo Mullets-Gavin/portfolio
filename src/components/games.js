@@ -18,9 +18,9 @@ export default () => {
 				about="Lead project manager and programmer. I was tasked with managing Armtastic and programming the UI
 				seen in the game, utilizing Roblox-TS to write React-like code."
 				title2="Accomplishments"
-				stats1="Created the game under one month"
-				stats2="A large codebase that can withstand upto 50 player servers"
-				stats3="All user-interface works on all platforms, including Mobile and Xbox"
+				stats1="Learned and programmed UI in TypeScript"
+				stats2="All user-interface works on all platforms"
+				stats3="Withstand upto 50 player servers with battle-tested code"
 			/>
 			
 			<br />
