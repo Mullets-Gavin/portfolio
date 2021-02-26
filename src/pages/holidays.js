@@ -30,7 +30,7 @@ const getHoliday = getMonth[Math.floor(Math.random() * getMonth.length)];
 
 export default () => {
 	useEffect(() => {
-		document.title = Holiday;
+		document.title = getHoliday;
 	}, []);
 
 	return (
