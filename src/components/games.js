@@ -16,7 +16,7 @@ export default () => {
 				link="https://www.roblox.com/games/6242582774/Armtastic"
 				title1="Role"
 				about="Lead project manager and programmer. I was tasked with managing Armtastic and programming the UI
-				seen in the game, utilizing Roblox-TS to write React-like code with Roact, a Lua version of React."
+				seen in the game, utilizing Roblox-TS to write React-like code."
 				title2="Accomplishments"
 				stats1="Created the game under one month"
 				stats2="A large codebase that can withstand upto 50 player servers"
