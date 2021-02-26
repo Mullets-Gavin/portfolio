@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
-var d = new Date();
-var Month = d.getMonth();
-var Options = {
+const dateObj = new Date();
+const dateMonth = dateObj.getMonth();
+const dateOptions = {
 	0: [
 		// January
 		"happy new year",
@@ -25,10 +25,8 @@ var Options = {
 	],
 };
 
-console.log(Month);
-const getMonth = Options[Month];
-console.log("this month chosen: " + getMonth);
-const Holiday = getMonth[Math.floor(Math.random() * getMonth.length)];
+const getMonth = dateOptions[dateMonth];
+const getHoliday = getMonth[Math.floor(Math.random() * getMonth.length)];
 
 export default () => {
 	useEffect(() => {
@@ -80,7 +78,7 @@ export default () => {
 							i'm too lazy to make a giftcard, so here (refresh!)
 						</i>
 						<br />
-						<i>{Holiday}</i>
+						<i>{getHoliday}</i>
 						<p
 							style={{
 								color: "#FF3A2F",
