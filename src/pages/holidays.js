@@ -7,6 +7,16 @@ var Options = {
 		// January
 		"happy new year",
 	],
+	1: [
+		// February
+		"happy valentines day",
+		"happy fathers day",
+	],
+	2: [
+		// March
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
 	11: [
 		// December
 		"happy holidays 🎉",
@@ -15,8 +25,10 @@ var Options = {
 	],
 };
 
-const Holiday =
-	Options[Month][Math.floor(Math.random() * Options[Month].length)];
+console.log(Month);
+const getMonth = Options[Month];
+console.log("this month chosen: " + getMonth);
+const Holiday = getMonth[Math.floor(Math.random() * getMonth.length)];
 
 export default () => {
 	useEffect(() => {
