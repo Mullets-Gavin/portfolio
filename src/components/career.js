@@ -11,6 +11,21 @@ export default () => {
 
 			<Work
 				img={Roblox}
+				title="Dev Rel Contractor"
+				date="March 2021 - Present"
+				info="Game development platform with millions of players"
+				desc1="Contracted as a game technician to work with Developer Relations"
+				desc2="Work with game developers in compliance with China"
+				desc3="Solve solutions with open ended answers to create the best product"
+				accomp1="Implement intricate localization systems for numerous games"
+				accomp2="Helped game developers tweak their experiences to comply with China"
+				accomp3="Provide help and answer any questions about game development and compliance"
+			/>
+
+			<br />
+
+			<Work
+				img={Roblox}
 				title="Council Member"
 				date="Dec 2020 - Present"
 				info="Game development platform with millions of players"
@@ -26,13 +41,13 @@ export default () => {
 
 			<Work
 				img={MulletMafia}
-				title="Founder / CEO"
+				title="Project Manager"
 				date="Dec 2020 - Present"
 				info="Mullet Mafia is a development team on Roblox creating content and fun games"
 				desc1="Design experiences for millions of players"
 				desc2="Lead various projects to success by utilizing analytics and social features"
 				desc3="Create and manage projects with a team of developers"
-				accomp1="Over 25,000,000+ plays between games"
+				accomp1="Over 30,000,000+ plays between games"
 				accomp2="Designed, tested, and released unique experiences to the Roblox platform"
 				accomp3="Collaborated with numerous developers on partnerships or events"
 			/>
