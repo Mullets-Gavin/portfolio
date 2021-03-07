@@ -680,6 +680,7 @@ h1 {
 	border-radius: var(--panel-corners);
 	font-size: 120%;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .email-button:hover {
