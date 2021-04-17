@@ -11,7 +11,7 @@ export default () => {
 
 			<Work
 				img={Roblox}
-				title="Dev Rel Contractor"
+				title="Dev Insights"
 				date="March 2021 - Present"
 				info="Game development platform with millions of players"
 				desc1="Contracted as a game technician to work with Developer Relations"
@@ -27,7 +27,7 @@ export default () => {
 			<Work
 				img={Roblox}
 				title="Council Member"
-				date="Dec 2020 - Present"
+				date="Dec 2020 - April 2021"
 				info="Game development platform with millions of players"
 				desc1="Work closely with Roblox in company decisions"
 				desc2="Inform, prioritize, and escalate community feedback"
