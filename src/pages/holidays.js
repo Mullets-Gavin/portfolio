@@ -17,6 +17,46 @@ const dateOptions = {
 		"happy st patricks day",
 		"happy tiny irishman month",
 	],
+	3: [
+		// April
+		"happy 4/20",
+		"happy easter",
+	],
+	4: [
+		// May
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	5: [
+		// June
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	6: [
+		// July
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	7: [
+		// August
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	8: [
+		// September
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	9: [
+		// October
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
+	10: [
+		// November
+		"happy st patricks day",
+		"happy tiny irishman month",
+	],
 	11: [
 		// December
 		"happy holidays 🎉",
