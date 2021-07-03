@@ -4,8 +4,8 @@ module.exports = {
 		title: 'Mullets',
 		titleTemplate: '%s | Programmer & Game Designer',
 		description: 'A straight up nerd who enjoys Lua and JavaScript',
-		url: 'https://mullets.xyz', // No trailing slash allowed!
-		image: '/images/logo.png', // Path to your image you placed in the 'static' folder
+		url: 'https://mullets.xyz',
+		image: '/images/logo.png',
 		twitterUsername: '@mullets_gavin',
 	},
 };
