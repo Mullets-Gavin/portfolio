@@ -1,0 +1,1 @@
+import "@fontsource/open-sans/600.css"

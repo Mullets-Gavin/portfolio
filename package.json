@@ -14,6 +14,7 @@
     "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Mullets-Gavin/mullets.xyz.git"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^4.5.1",
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.6.0",
     "react": "^16.12.0",
