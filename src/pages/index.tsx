@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Accent from "../components/accent";
+import Games from "../components/games";
 import Header from "../components/header";
 import "../stylesheets/styles.css";
 
@@ -13,16 +14,11 @@ export default () => {
 			<Accent />
 
 			<div className="document">
-				<br />
+				<div className="space" />
 				<Header />
-				<br />
-				<Header />
-				<br />
-				<Header />
-				<br />
-				<Header />
-				<br />
-				<Header />
+				<div className="space" />
+				<Games />
+				<div className="space" />
 			</div>
 		</div>
 	);
