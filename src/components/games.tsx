@@ -12,10 +12,37 @@ export default class Games extends Component<GamesProps, GamesState> {
 	render() {
 		return (
 			<div className="grid">
-				<img className="card-img corner" src={captive}/>
-				<img className="card-img corner" src={armtastic}/>
-				<img className="card-img corner" src={caserush}/>
-				<img className="card-img corner" src={spellcaster}/>
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/3388553819"
+					target="_blank"
+				>
+					<img className="card-img corner" src={captive} />
+				</a>
+
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/6242582774"
+					target="_blank"
+				>
+					<img className="card-img corner" src={armtastic} />
+				</a>
+
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/3836677462"
+					target="_blank"
+				>
+					<img className="card-img corner" src={caserush} />
+				</a>
+
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/2755360250"
+					target="_blank"
+				>
+					<img className="card-img corner" src={spellcaster} />
+				</a>
 			</div>
 		);
 	}
