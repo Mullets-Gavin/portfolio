@@ -34,9 +34,9 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<h3>Roblox • 2020 - 2021</h3>
 						<div className="space" />
 						<p>
-							Sonar Studios has amassed over 450 million plays. As
-							the project director, I manage the growth and
-							acquisition of the company.
+							Working closely with Roblox Developer Relations to
+							provide community insight, assist with focus,
+							beta, and survey groups.
 						</p>
 					</div>
 				</div>
@@ -50,9 +50,9 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<h3>Roblox • 2020 - 2020</h3>
 						<div className="space" />
 						<p>
-							Sonar Studios has amassed over 450 million plays. As
-							the project director, I manage the growth and
-							acquisition of the company.
+							Interned as a game developer and designed open
+							source libraries for game development within Roblox
+							while adding accessibility & cross platform support.
 						</p>
 					</div>
 				</div>
