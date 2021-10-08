@@ -40,6 +40,10 @@ p, h1, h2, h3, h4, h5, h6 {
 	border-radius: 8px 8px 0 0;
 }
 
+.corner-left {
+	border-radius: 8px 0 0 8px;
+}
+
 .corner-circle {
 	border-radius: 100%;
 }
@@ -93,4 +97,47 @@ p, h1, h2, h3, h4, h5, h6 {
 	grid-template-columns: calc(50% - 4px) calc(50% - 4px);
 	grid-column-gap: 8px;
 	grid-row-gap: 8px;
+}
+
+.limit {
+	height: 150px;
+	display: flex;
+}
+
+.limit-img {
+	object-fit: cover;
+	height: 100%;
+	margin-right: 8px;
+}
+
+.title {
+	color: white;
+	text-transform: capitalize;
+}
+
+.title-text {
+	margin-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: auto;
+	background: linear-gradient(
+		to left,
+		var(--gradient1),
+		var(--gradient2)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.temp {
+	display: flex;
+}
+
+.btn {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.pad {
+	padding-right: 4px;
 }

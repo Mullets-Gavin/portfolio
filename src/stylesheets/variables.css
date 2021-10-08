@@ -1,5 +1,8 @@
 :root {
+	--color: #f44336;
+	
 	--primary: #fafafa;
+	/* --primary: black; */
 	--secondary: #FFFFFF;
 
 	--gradient1: #FD029C;
