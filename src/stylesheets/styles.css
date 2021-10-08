@@ -1,161 +1,60 @@
 @import "./variables.css";
 
 body {
-	margin: 10px 10px 0 10px;
+	margin: 0;
+	border: 0;
+	background: var(--primary);
+	align-items: center;
 }
 
 h1 {
 	margin: 0;
 }
 
-h2 {
-	margin: 0;
+.document {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-h3 {
-	margin: 0;
-}
-
-h4 {
-	margin: 0;
-}
-
-p {
-	margin: 0;
-}
-
-a {
-	text-decoration: none;
+.accent {
+	margin: 0 auto;
 	width: 100%;
-	display: block;
-	color: #fff;
+	height: 8px;
+	background: linear-gradient(
+		to left,
+		var(--gradient1),
+		var(--gradient2)
+	);
 }
 
-.page {
+.corner {
+	border-radius: 8px;
+}
+
+.corner-img {
+	border-radius: 8px 8px 0 0;
+}
+
+.card {
 	width: 100%;
-	max-width: 1000px;
-	margin: 10px auto 0px;
-
-	display: flex;
-	justify-content: space-between;
+	background: var(--secondary);
 }
 
-.frame {
-	border: 1px solid #e0e0e0;
-	border-radius: 6px;
-	padding: 10px 10px 10px 10px;
-	margin-bottom: 10px;
-}
-
-.primary {
-	width: calc(75% - 5px);
-}
-
-.secondary {
-	width: calc(25% - 5px);
-}
-
-.image {
-	width: calc(100% + 20px);
-	position: relative;
-	top: -10px;
-	left: -10px;
-	border-radius: 6px 6px 0px 0px;
-}
-
-.play {
+.card-banner {
+	height:50%;
+	object-fit: cover;
 	width: 100%;
-	background-color: #0E1A5C;
-	margin-top: 10px;
-	text-align: center;
-	border-radius: 6px;
 }
 
-.padding {
-	padding: 10px 0px 10px 0px;
-	align-content: center;
-	justify-content: center;
-	display: flex;
-}
-
-.content {
-	color: #616161;
-}
-
-.socials {
-	display: flex;
-	justify-content: space-between;
-}
-
-.link {
-	margin-left: 10px;
-	margin-top: 10px;
+.card-details {
 	width: 100%;
-	background-color: #00b06f;
-	text-align: center;
-	border-radius: 6px;
-	align-content: center;
-	justify-content: center;
+	height: 250px;
+	background: red;
 }
 
-.link:first-of-type {
-	margin-left: 0;
-}
-
-.link:last-of-type {
-	margin-right: 0;
-}
-
-.media {
-	width: 25px;
-	height: 25px;
-	object-fit: contain;
-}
-
-.twitter {
-	background-color: #1d9bf0;
-}
-
-.github {
-	background-color: #171515;
-}
-
-.linkedin {
-	background-color: #17a2b8;
-}
-
-.roblox {
-	background-color: #000;
-}
-
-.discord {
-	background-color: #7289da;
-}
-
-.career {
-	display: flex;
-}
-
-.icon {
-	height: 100%;
-	width: 100%;
-	max-width: 100px;
-	object-fit: contain;
-	margin-right: 10px;
-	border-radius: 6px;
-}
-
-@media only screen and (max-width: 650px) {
-	.page {
-		display: inline;
-		justify-content: initial;
-	}
-
-	.primary {
-		width: 100%;
-	}
-
-	.secondary {
-		width: 100%;
-	}
+.card-pfp {
+	height: 100px;
+	width: 100px;
+	margin-top: -25%;
+	background: blue;
 }
