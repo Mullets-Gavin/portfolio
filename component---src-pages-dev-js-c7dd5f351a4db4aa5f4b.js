@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"7w8Z":function(e,t,a){"use strict";a.r(t);var s=a("q1tI"),n=a.n(s);a("sFFT");t.default=function(){return n.a.createElement("div",{class:"app",className:"App"},n.a.createElement("div",{class:"panel"},n.a.createElement("h1",{class:"header"},"Mullets_Gavin",n.a.createElement("button",{class:"header-button"},"this is text")),n.a.createElement("div",{class:"footer"})))}},sFFT:function(e,t,a){}}]);
+//# sourceMappingURL=component---src-pages-dev-js-c7dd5f351a4db4aa5f4b.js.map
