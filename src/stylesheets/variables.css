@@ -1,10 +1,11 @@
 :root {
-	--primary: #E0E0E0;
+	/* --primary: #fafafa; */
+	--primary: black;
 	--secondary: #FFFFFF;
 
 	--gradient1: #FD029C;
 	--gradient2: #00CCFF;
 
-	--font: "Montserrat";
+	--font: "Open Sans";
 	--fallback-font: "sans-serif";
 }

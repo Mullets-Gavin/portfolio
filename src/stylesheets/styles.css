@@ -5,9 +5,10 @@ body {
 	border: 0;
 	background: var(--primary);
 	align-items: center;
+	font-family: var(--font), var(--fallback-font);
 }
 
-h1 {
+p, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
@@ -27,6 +28,10 @@ h1 {
 	);
 }
 
+.space {
+	padding-bottom: 8px;
+}
+
 .corner {
 	border-radius: 8px;
 }
@@ -35,13 +40,23 @@ h1 {
 	border-radius: 8px 8px 0 0;
 }
 
+.corner-circle {
+	border-radius: 100%;
+}
+
 .card {
 	width: 100%;
+	height: auto;
 	background: var(--secondary);
 }
 
 .card-banner {
-	height:50%;
+	height:100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card-img {
 	object-fit: cover;
 	width: 100%;
 }
@@ -55,6 +70,27 @@ h1 {
 .card-pfp {
 	height: 100px;
 	width: 100px;
-	margin-top: -25%;
-	background: blue;
+	margin: -56px auto 0 auto;
+	border: 8px solid var(--secondary);
+	z-index: 100;
+	position: relative;
+	background: var(--secondary);
+}
+
+.card-flag {
+	height: 150px;
+	z-index: 0;
+}
+
+.card-header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+	grid-column-gap: 8px;
+	grid-row-gap: 8px;
 }
