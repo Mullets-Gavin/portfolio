@@ -12,7 +12,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 		return (
 			<div>
 				<div className="card corner limit">
-					<img className="limit-img corner-left" src={sonarstudios} />
+					<img className="limit-img corner-card" src={sonarstudios} />
 					<div className="pad">
 						<h1>Project Director</h1>
 						<h3>Sonar Studios • 2021 - Present</h3>
@@ -28,7 +28,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 				<div className="space" />
 
 				<div className="card corner limit">
-					<img className="limit-img corner-left" src={roblox} />
+					<img className="limit-img corner-card" src={roblox} />
 					<div className="pad">
 						<h1>Developer Council</h1>
 						<h3>Roblox • 2020 - 2021</h3>
@@ -44,7 +44,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 				<div className="space" />
 
 				<div className="card corner limit">
-					<img className="limit-img corner-left" src={roblox} />
+					<img className="limit-img corner-card" src={roblox} />
 					<div className="pad">
 						<h1>Accelerator Internship</h1>
 						<h3>Roblox • 2020 - 2020</h3>
@@ -60,7 +60,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 				<div className="space" />
 
 				<div className="card corner limit">
-					<img className="limit-img corner-left" src={roblox} />
+					<img className="limit-img corner-card" src={roblox} />
 					<div className="pad">
 						<h1>Post Approval</h1>
 						<h3>Roblox • 2019 - 2020</h3>
@@ -77,7 +77,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 				<div className="space" />
 
 				<div className="card corner limit">
-					<img className="limit-img corner-left" src={mulletmafia} />
+					<img className="limit-img corner-card" src={mulletmafia} />
 					<div className="pad">
 						<h1>Project Director</h1>
 						<h3>Mullet Mafia • 2019 - Present</h3>

@@ -16,17 +16,19 @@ export default () => {
 			<Accent />
 
 			<div className="document">
-				<div className="space" />
-				<Header />
-				{/* <div className="space" />
+				<div className="page">
+					<div className="space" />
+					<Header />
+					{/* <div className="space" />
 				<Title title="My Games" /> */}
-				<div className="space" />
-				<Games />
-				{/* <div className="space" />
+					<div className="space" />
+					<Games />
+					{/* <div className="space" />
 				<Title title="My Career" /> */}
-				<div className="space" />
-				<Career />
-				<div className="space" />
+					<div className="space" />
+					<Career />
+					<div className="space" />
+				</div>
 			</div>
 		</div>
 	);

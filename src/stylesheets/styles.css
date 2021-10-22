@@ -22,6 +22,11 @@ img {
 	vertical-align: top;
 }
 
+.page {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .document {
 	max-width: 600px;
 	margin: 0 auto;
@@ -44,6 +49,10 @@ img {
 
 .corner-img {
 	border-radius: 8px 8px 0 0;
+}
+
+.corner-card {
+	border-radius: 8px 0 0 8px;
 }
 
 .corner-left {
@@ -142,4 +151,23 @@ img {
 
 .pad {
 	padding-right: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+	.limit {
+		display: inline-table;
+	}
+
+	.limit-img {
+		width: 100%;
+		height: 100px;
+	}
+
+	.pad {
+		padding: 8px;
+	}
+
+	.corner-card {
+		border-radius: 8px 8px 0 0;
+	}
 }
