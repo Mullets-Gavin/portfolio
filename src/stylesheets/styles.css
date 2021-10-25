@@ -67,6 +67,7 @@ img {
 	width: 100%;
 	height: auto;
 	background: var(--secondary);
+	outline: solid 1px var(--outline);
 }
 
 .card-banner {

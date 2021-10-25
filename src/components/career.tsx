@@ -35,8 +35,8 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<div className="space" />
 						<p>
 							Working closely with Roblox Developer Relations to
-							provide community insight, assist with focus,
-							beta, and survey groups.
+							provide community insight, assist with focus, beta,
+							and survey groups.
 						</p>
 					</div>
 				</div>
@@ -66,10 +66,9 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<h3>Roblox • 2019 - 2020</h3>
 						<div className="space" />
 						<p>
-							Volunteering for Roblox, I guided and mentored new
-							developers to get familiar with the platform via
-							Roblox’s developer forums and reproduced issues for
-							engineers.
+							Volunteering for DevRel, guided developers to get
+							familiar with Roblox via Roblox’s developer forums
+							and reproduced issues for engineers.
 						</p>
 					</div>
 				</div>
