@@ -1,13 +1,20 @@
 :root {
 	--color: #f44336;
 	
-	--primary: #fafafa;
-	/* --primary: black; */
-	--secondary: #FFFFFF;
-	--outline: #E0E0E0;
+	/* light theme */
+	--primary-light: #fafafa;
+	--secondary-light: #FFFFFF;
+	--outline-light: #E0E0E0;
+	--text-light: black;
 
-	--gradient1: #FD029C;
-	--gradient2: #00CCFF;
+	/* dark theme */
+	--primary-dark: #1B1B1B;
+	--secondary-dark: #343434;
+
+	--text-dark: white;
+
+	--gradient-double: linear-gradient(to bottom, #f44336, #6f1e19);
+	--gradient-triple: linear-gradient(to right, #6f1e19, #86241f, #9f2b24, #b8322a, #d1392f, #d1392f, #d1392f, #d1392f, #b8322a, #9f2b24, #86241f, #6f1e19);
 
 	--font: "Open Sans";
 	--fallback-font: "sans-serif";

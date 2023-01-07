@@ -3,6 +3,7 @@ import Accent from "../components/accent";
 import Career from "../components/career";
 import Games from "../components/games";
 import Header from "../components/header";
+import Socials from "../components/socials";
 import Title from "../components/title";
 import "../stylesheets/styles.css";
 
@@ -20,11 +21,14 @@ export default () => {
 					<div className="space" />
 					<Header />
 					{/* <div className="space" />
-				<Title title="My Games" /> */}
+				<Title title="GAMES" /> */}
+					<div className="space" />
+					<Socials />
+
 					<div className="space" />
 					<Games />
 					{/* <div className="space" />
-				<Title title="My Career" /> */}
+				<Title title="CAREER" /> */}
 					<div className="space" />
 					<Career />
 					<div className="space" />

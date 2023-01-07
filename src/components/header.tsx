@@ -4,8 +4,7 @@ import banner from "../images/banner.png";
 import gavinpfp from "../images/gavinpfp.png";
 
 interface HeaderState {}
-interface HeaderProps {
-}
+interface HeaderProps {}
 
 export default class Header extends Component<HeaderProps, HeaderState> {
 	render() {
