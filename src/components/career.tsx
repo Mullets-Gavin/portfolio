@@ -29,9 +29,8 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<h3>Twin Atlas • Oct 2022 - Present</h3>
 						<div className="gap" />
 						<p>
-							Sonar Studios has amassed over 450 million plays
-							with over 1.2 million community members. Managing
-							the growth and acquisition of the company.
+							Directed the merger between Sonar Studios and RedManta to form Twin Atlas.
+							I lead company growth through brand partnerships and talent acquisition.
 						</p>
 					</div>
 				</div>
@@ -55,9 +54,9 @@ export default class Career extends Component<CareerProps, CareerState> {
 						<h3>Sonar Studios • Jun 2022 - Oct 2022</h3>
 						<div className="gap" />
 						<p>
-							Sonar Studios has amassed over 450 million plays
-							with over 1.2 million community members. Managing
-							the growth and acquisition of the company.
+							Managed brand activations with clients such as West Elm and Viacom.
+							Coordinated and oversaw company operations and new games such as Winds
+							of Fortune and Griffin's Destiny
 						</p>
 					</div>
 				</div>

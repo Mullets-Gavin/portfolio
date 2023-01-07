@@ -5,20 +5,20 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://github.com/Mullets-Gavin/mullets.xyz.git"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.1",
-    "gatsby": "^2.26.1",
+    "gatsby": "^5.3.3",
     "gatsby-plugin-react-helmet": "^3.6.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.9.5",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1"
