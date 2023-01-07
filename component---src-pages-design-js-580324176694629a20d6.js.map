@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/design.js"],"names":[],"mappings":"2FAAA,gCAEe,qBACX,OACI","file":"component---src-pages-design-js-580324176694629a20d6.js","sourcesContent":["import React from \"react\"\r\n\r\nexport default function() {\r\n    return (\r\n        <h1>hey</h1>\r\n    )\r\n}"],"sourceRoot":""}

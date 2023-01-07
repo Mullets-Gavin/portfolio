@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"7w8Z":function(e,n,s){"use strict";s.r(n);var t=s("q1tI"),a=s.n(t);s("sFFT");n.default=function(){return a.a.createElement("div",{class:"panel",className:"Panel"},a.a.createElement("div",{class:"footer"},"this is my BANGER footer"))}},sFFT:function(e,n,s){}}]);
-//# sourceMappingURL=component---src-pages-dev-js-e70eafadfef88f192e0a.js.map
