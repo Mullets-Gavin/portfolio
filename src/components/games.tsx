@@ -58,34 +58,10 @@ export default class Games extends Component<GamesProps, GamesState> {
 
 				<a
 					className="btn"
-					href="https://www.roblox.com/games/10704789056"
-					target="_blank"
-				>
-					<img className="card-img corner" src={driveworld} />
-				</a>
-
-				<a
-					className="btn"
 					href="https://www.roblox.com/games/6242582774"
 					target="_blank"
 				>
 					<img className="card-img corner" src={armtastic} />
-				</a>
-
-				<a
-					className="btn"
-					href="https://www.roblox.com/games/3836677462"
-					target="_blank"
-				>
-					<img className="card-img corner" src={caserush} />
-				</a>
-
-				<a
-					className="btn"
-					href="https://www.roblox.com/games/2755360250"
-					target="_blank"
-				>
-					<img className="card-img corner" src={spellcaster} />
 				</a>
 
 				<a
@@ -102,14 +78,6 @@ export default class Games extends Component<GamesProps, GamesState> {
 					target="_blank"
 				>
 					<img className="card-img corner" src={westelm} />
-				</a>
-
-				<a
-					className="btn"
-					href="https://www.superleague.com/"
-					target="_blank"
-				>
-					<img className="card-img corner" src={superleaguearcade} />
 				</a>
 
 				<a

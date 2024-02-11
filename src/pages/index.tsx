@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Socials from "../components/socials";
 import Footer from "../components/footer";
 import Title from "../components/title";
+import Stats from "../components/stats";
 import "../stylesheets/styles.css";
 
 export default () => {
@@ -21,7 +22,6 @@ export default () => {
 				<div className="page">
 					<div className="space" />
 					<Header />
-
 					
 					<div className="space" />
 					<Socials />
@@ -39,6 +39,10 @@ export default () => {
 					<Games />
 
 					<div className="space" />
+
+					<Stats />
+					<div className="space" />
+
 					{/* <Title
 						title="career"
 						body="hi there, i'm Gavin. I'm a businessman, engineer, pilot, 
