@@ -16,6 +16,8 @@
 	--gradient-double: linear-gradient(to bottom, #f44336, #6f1e19);
 	--gradient-triple: linear-gradient(to right, #6f1e19, #86241f, #9f2b24, #b8322a, #d1392f, #d1392f, #d1392f, #d1392f, #b8322a, #9f2b24, #86241f, #6f1e19);
 
+	--gradient-green: linear-gradient(to bottom, #1ab92c, #0f8715ba);
+
 	--font: "Open Sans";
 	--fallback-font: "sans-serif";
 }

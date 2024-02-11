@@ -7,6 +7,7 @@ import Socials from "../components/socials";
 import Footer from "../components/footer";
 import Title from "../components/title";
 import Stats from "../components/stats";
+import Consulting from "../components/consulting";
 import "../stylesheets/styles.css";
 
 export default () => {
@@ -22,7 +23,7 @@ export default () => {
 				<div className="page">
 					<div className="space" />
 					<Header />
-					
+
 					<div className="space" />
 					<Socials />
 
@@ -50,6 +51,10 @@ export default () => {
 					/> */}
 
 					{/* <div className="space" /> */}
+
+					<Consulting />
+					<div className="space" />
+
 					<Career />
 					<div className="space" />
 
