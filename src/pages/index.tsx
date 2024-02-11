@@ -4,7 +4,7 @@ import Career from "../components/career";
 import Games from "../components/games";
 import Header from "../components/header";
 import Socials from "../components/socials";
-import Skills from "../components/skills";
+import Footer from "../components/footer";
 import Title from "../components/title";
 import "../stylesheets/styles.css";
 
@@ -27,34 +27,30 @@ export default () => {
 					<Socials />
 
 					<div className="space" />
-					<Title
+					{/* <Title
 						title="projects"
 						body="I've worked on numerous projects over my career, from releasing 
 						authentic and original intellectual property, to collaborating with 
 						brands to bring them into the metaverse. I've worked with companies 
 						such as Viacom, MTV, Super League, West Elm, and more."
-					/>
+					/> */}
 
-					<div className="space" />
+					{/* <div className="space" /> */}
 					<Games />
 
 					<div className="space" />
-					<Title
+					{/* <Title
 						title="career"
 						body="hi there, i'm Gavin. I'm a businessman, engineer, pilot, 
 						skateboarder, and race car driver."
-					/>
+					/> */}
 
-					<div className="space" />
+					{/* <div className="space" /> */}
 					<Career />
-
 					<div className="space" />
-					<Title
-						title="skills"
-					/>
 
-					<div className="space" />
-					<Skills />
+					<Footer />
+
 					<div className="space" />
 				</div>
 			</div>

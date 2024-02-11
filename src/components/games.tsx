@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import miningfactory from "../images/miningfactory.png";
+import mergezoo from "../images/mergezoo.png";
 import captive from "../images/captive.png";
 import armtastic from "../images/armtastic.png";
 import caserush from "../images/caserush.png";
@@ -24,6 +26,22 @@ export default class Games extends Component<GamesProps, GamesState> {
 			<div className="grid">
 				<a
 					className="btn"
+					href="https://www.roblox.com/games/12717051222"
+					target="_blank"
+				>
+					<img className="card-img corner" src={miningfactory} />
+				</a>
+				
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/13742128145"
+					target="_blank"
+				>
+					<img className="card-img corner" src={mergezoo} />
+				</a>
+
+				<a
+					className="btn"
 					href="https://www.roblox.com/games/3388553819"
 					target="_blank"
 				>
@@ -44,22 +62,6 @@ export default class Games extends Component<GamesProps, GamesState> {
 					target="_blank"
 				>
 					<img className="card-img corner" src={driveworld} />
-				</a>
-
-				<a
-					className="btn"
-					href="https://www.roblox.com/games/8712195458"
-					target="_blank"
-				>
-					<img className="card-img corner" src={tastyfarms} />
-				</a>
-
-				<a
-					className="btn"
-					href="https://www.roblox.com/games/7071201807"
-					target="_blank"
-				>
-					<img className="card-img corner" src={sunnyshores} />
 				</a>
 
 				<a

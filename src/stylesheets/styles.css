@@ -40,8 +40,12 @@ img {
 	background: var(--gradient-triple);
 }
 
+.card-align {
+	text-align: center;
+}
+
 .space {
-	padding-bottom: 16px;
+	padding-bottom: 12px;
 }
 
 .gap {
@@ -57,19 +61,19 @@ img {
 }
 
 .corner {
-	border-radius: 8px;
+	border-radius: 6px;
 }
 
 .corner-img {
-	border-radius: 8px 8px 0 0;
+	border-radius: 6px 6px 0 0;
 }
 
 .corner-card {
-	border-radius: 8px 0 0 8px;
+	border-radius: 6px 0 0 6px;
 }
 
 .corner-left {
-	border-radius: 8px 0 0 8px;
+	border-radius: 6px 0 0 6px;
 }
 
 .corner-circle {
@@ -92,6 +96,16 @@ img {
 .card-img {
 	object-fit: cover;
 	width: 100%;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* .card-btn {
+
+} */
+
+.card-img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 6px 40px rgba(0,0,0,0.75);
 }
 
 .card-details {
@@ -103,7 +117,7 @@ img {
 	height: 150px;
 	width: 150px;
 	margin: -80px auto 0 auto;
-	border: 8px solid var(--secondary-dark);
+	border: 6px solid var(--secondary-dark);
 	z-index: 100;
 	position: relative;
 	background: var(--secondary-dark);
@@ -121,25 +135,25 @@ img {
 .grid {
 	width: 100%;
 	display: grid;
-	grid-template-columns: calc(50% - 4px) calc(50% - 4px);
-	grid-column-gap: 8px;
-	grid-row-gap: 8px;
+	grid-template-columns: calc(50% - 6px) calc(50% - 6px);
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
 }
 
 .list {
 	width: 100%;
 	display: grid;
 	grid-template-columns: calc(50% - 4px) calc(50% - 4px);
-	grid-column-gap: 8px;
-	grid-row-gap: 8px;
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
 }
 
 .scroll {
 	width: 100%;
 	display: grid;
 	grid-template-columns: calc(10% - 4px) calc(10% - 4px);
-	grid-column-gap: 8px;
-	grid-row-gap: 8px;
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
 	
 }
 
@@ -157,6 +171,12 @@ img {
 .limit-btn {
 	object-fit: cover;
 	height: 100%;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.limit-btn:hover {
+	transform: scale(1.1);
+	box-shadow: 0 6px 40px rgba(0,0,0,0.75);
 }
 
 .title {
@@ -196,10 +216,11 @@ img {
 	height: auto;
 	width: auto;
 	display: grid;
+	align-content: center;
 	align-items: center;
-	grid-template-columns: repeat(5, calc(20% - 6.5px) calc(20% - 6.5px));
-	grid-column-gap: 8px;
-	grid-row-gap: 8px;
+	grid-template-columns: repeat(5, calc(20% - 10px) calc(20% - 10px));
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
 }
 
 .entry {
@@ -218,6 +239,12 @@ img {
 	align-items: center;
 	width: 100%;
 	height: 100%;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.application:hover {
+	transform: scale(1.1);
+	box-shadow: 0 6px 40px rgba(0,0,0,0.75);
 }
 
 .application-button {

@@ -25,8 +25,33 @@ export default class Career extends Component<CareerProps, CareerState> {
 						/>
 					</a>
 					<div className="pad">
+						<h1>Production Director</h1>
+						<h3>Twin Atlas • June 2023 - Present</h3>
+						<div className="gap" />
+						<p>
+							Directing development and production operations across multiple
+							projects internally and externally with Twin Atlas. 
+						</p>
+					</div>
+				</div>
+
+				<div className="space" />
+
+				<div className="card corner limit">
+					<a
+						className="limit-btn corner-card"
+						href={"https://www.linkedin.com/company/twin-atlas-llc/"}
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img
+							className="limit-img corner-card"
+							src={twinatlas}
+						/>
+					</a>
+					<div className="pad">
 						<h1>Business Development Director</h1>
-						<h3>Twin Atlas • Oct 2022 - Present</h3>
+						<h3>Twin Atlas • Oct 2022 - June 2023</h3>
 						<div className="gap" />
 						<p>
 							Directed the merger between Sonar Studios and RedManta to form Twin Atlas.
@@ -35,7 +60,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -61,7 +86,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -87,7 +112,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -114,7 +139,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -141,7 +166,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -165,7 +190,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
@@ -188,7 +213,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</div>
 				</div>
 
-				<div className="gap" />
+				<div className="space" />
 
 				<div className="card corner limit">
 					<a
