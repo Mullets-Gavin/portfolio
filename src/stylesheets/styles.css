@@ -259,6 +259,11 @@ img {
 	text-align: center;
 }
 
+.stats-title {
+	text-align: center;
+	
+}
+
 .stats-right {
 	margin-right: 6px;
 }
