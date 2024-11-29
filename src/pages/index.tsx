@@ -52,8 +52,8 @@ export default () => {
 
 					{/* <div className="space" /> */}
 
-					<Consulting />
-					<div className="space" />
+					{/* <Consulting /> */}
+					{/* <div className="space" /> */}
 
 					<Career />
 					<div className="space" />
@@ -63,6 +63,8 @@ export default () => {
 					<div className="space" />
 				</div>
 			</div>
+
+			<Accent />
 		</div>
 	);
 };

@@ -16,6 +16,11 @@ import superleaguearcade from "../images/superleaguearcade.png";
 import sunnyshores from "../images/sunnyshores.png";
 import tastyfarms from "../images/tastyfarms.png";
 import teenwolf from "../images/teenwolf.png";
+import championdefenders from "../images/championdefenders.png";
+import resortlife from "../images/resortlife.png";
+
+import theclassic from "../images/theclassic.png";
+import thegames from "../images/thegames.png";
 
 interface GamesState {}
 interface GamesProps {}
@@ -24,6 +29,38 @@ export default class Games extends Component<GamesProps, GamesState> {
 	render() {
 		return (
 			<div className="grid">
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/17427651911/The-Classic"
+					target="_blank"
+				>
+					<img className="card-img corner" src={theclassic} />
+				</a>
+
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/18320910606/The-Games"
+					target="_blank"
+				>
+					<img className="card-img corner" src={thegames} />
+				</a>
+				
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/17673014761/Champion-Defenders-TD"
+					target="_blank"
+				>
+					<img className="card-img corner" src={championdefenders} />
+				</a>
+
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/14618646174/Resort-Life-Island-Tycoon"
+					target="_blank"
+				>
+					<img className="card-img corner" src={resortlife} />
+				</a>
+				
 				<a
 					className="btn"
 					href="https://www.roblox.com/games/12717051222"

@@ -9,7 +9,7 @@ export default class Footer extends Component<FooterState, FooterProps> {
 	render() {
 		return(
 		<div>
-			<p className="card-align">© {CurrentYear} Mullets</p>
+			<p className="card-align">© {CurrentYear} Mullets • Viva Las Vegas, Nevada</p>
 
 			<div className="space" />
 		</div>
