@@ -8,8 +8,10 @@
 	--text-light: black;
 
 	/* dark theme */
-	--primary-dark: #1B1B1B;
-	--secondary-dark: #343434;
+	/* --primary-dark: #1B1B1B; */
+	/* --secondary-dark: #343434; */
+	--primary-dark: #0F0F0F;
+	--secondary-dark: #1E1E1E;
 
 	--text-dark: white;
 

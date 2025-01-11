@@ -7,9 +7,9 @@ export default class Stats extends Component<StatsState, StatsProps> {
 	render() {
 		return (
 			<div>
-				<div className="card corner stats-title">
+				<div className="card corner red-outline stats-title ">
 					<div className="pillow">
-						<h1>84.3m+</h1>
+						<h1>300,000,000+</h1>
 						<h3>Total Plays</h3>
 					</div>
 				</div>
@@ -17,14 +17,14 @@ export default class Stats extends Component<StatsState, StatsProps> {
 				<div className="space" />
 
 				<div className="stats-grid">
-					<div className="card corner pillow stats">
-						<h1>657k+</h1>
+					<div className="card corner red-outline pillow stats">
+						<h1>2M+</h1>
 						<h3>Total Favorites</h3>
 					</div>
 
-					<div className="card corner pillow stats">
-						<h1>663k+</h1>
-						<h3>Total Members</h3>
+					<div className="card corner red-outline pillow stats">
+						<h1>1M+</h1>
+						<h3>Total Followers</h3>
 					</div>
 				</div>
 			</div>

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Accent from "../components/accent";
 import Career from "../components/career";
 import Games from "../components/games";
+import Projects from "../components/projects";
 import Header from "../components/header";
 import Socials from "../components/socials";
 import Footer from "../components/footer";
@@ -43,6 +44,9 @@ export default () => {
 
 					<Stats />
 					<div className="space" />
+
+					{/* <Projects />
+					<div className="space" /> */}
 
 					{/* <Title
 						title="career"
