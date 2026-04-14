@@ -25,7 +25,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 						/>
 					</a>
 					<div className="pad">
-						<h1>Production Director</h1>
+						<h1>Executive Producer</h1>
 						<h3>Twin Atlas • June 2023 - Present</h3>
 						<div className="gap" />
 						<p>
@@ -50,7 +50,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 						/>
 					</a>
 					<div className="pad">
-						<h1>Business Development Director</h1>
+						<h1>Director of BizDev</h1>
 						<h3>Twin Atlas • Oct 2022 - June 2023</h3>
 						<div className="gap" />
 						<p>
@@ -75,7 +75,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 						/>
 					</a>
 					<div className="pad">
-						<h1>Business Development Director</h1>
+						<h1>Director of BizDev</h1>
 						<h3>Sonar Studios • Jun 2022 - Oct 2022</h3>
 						<div className="gap" />
 						<p>
@@ -101,7 +101,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 						/>
 					</a>
 					<div className="pad">
-						<h1>Business Development Associate</h1>
+						<h1>BizDev Associate</h1>
 						<h3>Sonar Studios • Jul 2021 - Jun 2022</h3>
 						<div className="gap" />
 						<p>

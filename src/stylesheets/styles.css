@@ -221,15 +221,32 @@ img {
 	padding-right: 8px;
 }
 
-.contact {
+/* .contact {
 	height: auto;
 	width: auto;
 	display: grid;
 	align-content: center;
 	align-items: center;
-	grid-template-columns: repeat(5, calc(20% - 10px) calc(20% - 10px));
+	grid-template-columns: repeat(6, calc(17% - 10px) calc(17% - 10px));
 	grid-column-gap: 12px;
 	grid-row-gap: 12px;
+} */
+
+.contact {
+    /* Set a fallback default (e.g., 3) just in case the variable isn't passed */
+    --items-per-row: 3; 
+    
+    height: auto;
+    width: auto;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    
+    /* This creates X columns that all perfectly share the space */
+    grid-template-columns: repeat(var(--items-per-row), 1fr);
+    
+    /* 'gap' is the modern shorthand that replaces grid-column-gap and grid-row-gap */
+    gap: 14px; 
 }
 
 .entry {
