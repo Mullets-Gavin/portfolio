@@ -8,6 +8,9 @@ import twinatlas from "../images/twinatlas.png";
 interface CareerState {}
 interface CareerProps {}
 
+const CurrentYear = new Date().getFullYear();
+const CurrentMonth = new Date().toLocaleString('en-US', { month: 'long' });
+
 export default class Career extends Component<CareerProps, CareerState> {
 	render() {
 		return (
@@ -26,7 +29,7 @@ export default class Career extends Component<CareerProps, CareerState> {
 					</a>
 					<div className="pad">
 						<h1>Executive Producer</h1>
-						<h3>Twin Atlas • June 2023 - Present</h3>
+						<h3>Twin Atlas • June 2023 - Present ({CurrentMonth} {CurrentYear})</h3>
 						<div className="gap" />
 						<p>
 							Directing development and production operations across multiple

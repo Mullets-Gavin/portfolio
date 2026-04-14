@@ -66,21 +66,6 @@ export default class Socials extends Component<SocialsState, SocialsProps> {
 				<div className="application corner">
 					<a
 						className="application-button corner"
-						href={"https://letterboxd.com/Mullets/"}
-						rel="noreferrer"
-						target="_blank"
-					>
-						<img
-							className="application-img"
-							alt={"name"}
-							src={letterboxd}
-						/>
-					</a>
-				</div>
-
-				<div className="application corner">
-					<a
-						className="application-button corner"
 						href={"https://x.com/Mullets_Gavin"}
 						rel="noreferrer"
 						target="_blank"
@@ -89,6 +74,21 @@ export default class Socials extends Component<SocialsState, SocialsProps> {
 							className="application-img"
 							alt={"name"}
 							src={x}
+						/>
+					</a>
+				</div>
+
+				<div className="application corner">
+					<a
+						className="application-button corner"
+						href={"https://letterboxd.com/Mullets/"}
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img
+							className="application-img"
+							alt={"name"}
+							src={letterboxd}
 						/>
 					</a>
 				</div>

@@ -45,7 +45,8 @@ img {
 }
 
 .space {
-	padding-bottom: 12px;
+	--space-size: 12px;
+	padding-bottom: var(--space-size);
 }
 
 .gap {
@@ -191,17 +192,20 @@ img {
 .title {
 	color: var(--text-dark);
 	text-transform: capitalize;
+	text-align: center;
 }
 
 .title-text {
-	margin-left: 8px;
-	padding-bottom: 4px;
-	padding-top: 4px;
-	width: auto;
-	/* background: linear-gradient(to left, var(--gradient1), var(--gradient2)); */
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
-	color: var(--text-dark);
+    /* Remove the margin-left so it doesn't push to the right */
+    margin: 0; 
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+    /* Force the element to take up the full width of its parent */
+    width: 100%; 
+    
+    text-align: center;
+    color: var(--text-dark);
 }
 
 .left-align {
@@ -396,8 +400,8 @@ img {
 
 .application-img {
 	width: 100%;
-	max-width: 70%;
-	max-height: 70%;
+	max-width: 75%;
+	max-height: 75%;
 }
 
 @media only screen and (max-width: 700px) {
