@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import miningfactory from "../images/miningfactory.png";
 import mergezoo from "../images/mergezoo.png";
 import captive from "../images/captive.png";
+import captive2 from "../images/captive2.png";
 import armtastic from "../images/armtastic.png";
 import miningfactorythumb from "../images/miningfactory_thumb.png";
 import windsoffortune from "../images/windsoffortune.png";
@@ -10,6 +10,8 @@ import westelm from "../images/westelm.png";
 import vmaexperience from "../images/vmaexperience.png";
 import samurnauts from "../images/samurnauts.png";
 import towerdefense from "../images/towerdefense.png"
+import battleforgrayskull from "../images/battleforgrayskull.png";
+import businesslife from "../images/businesslife.png";
 
 import teenwolf from "../images/teenwolf.png";
 import championdefenders from "../images/championdefenders.png";
@@ -49,7 +51,17 @@ export default class Games extends Component<GamesProps, GamesState> {
 					>
 						<img className="card-img corner" src={thegames} />
 					</a>
+				</div>
 
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/12717051222"
+					target="_blank"
+				>
+					<img className="card-img card-bottom corner-pad" src={battleforgrayskull} />
+				</a>
+
+				<div className="grid">
 					<a
 						className="btn"
 						href="https://www.roblox.com/games/14618646174/Resort-Life-Island-Tycoon"
@@ -63,7 +75,7 @@ export default class Games extends Component<GamesProps, GamesState> {
 						href="https://www.roblox.com/games/3388553819"
 						target="_blank"
 					>
-						<img className="card-img corner" src={captive} />
+						<img className="card-img corner" src={businesslife} />
 					</a>
 				</div>
 
@@ -92,6 +104,16 @@ export default class Games extends Component<GamesProps, GamesState> {
 					>
 						<img className="card-img corner" src={samurnauts} />
 					</a>
+				</div>
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/77637497601311"
+					target="_blank"
+				>
+					<img className="card-img card-bottom corner-pad" src={captive2} />
+				</a>
+
+			<div className="grid">
 
 					<a
 						className="btn"
@@ -113,15 +135,13 @@ export default class Games extends Component<GamesProps, GamesState> {
 
 				<a
 					className="btn"
-					href="https://www.roblox.com/games/17673014761/Champion-Defenders-TD"
+					href="https://www.roblox.com/games/77637497601311"
 					target="_blank"
 				>
-					<img className="card-img card-bottom corner-pad" src={championdefenders} />
+					<img className="card-img card-bottom corner-pad" src={captive} />
 				</a>
 
 				<div className="grid">
-
-
 					<a
 						className="btn"
 						href="https://www.roblox.com/games/6242582774"
@@ -137,7 +157,17 @@ export default class Games extends Component<GamesProps, GamesState> {
 					>
 						<img className="card-img corner" src={teenwolf} />
 					</a>
+				</div>
 
+				<a
+					className="btn"
+					href="https://www.roblox.com/games/17673014761/Champion-Defenders-TD"
+					target="_blank"
+				>
+					<img className="card-img card-bottom corner-pad" src={championdefenders} />
+				</a>
+
+				<div className="grid">
 					<a
 						className="btn"
 						href="https://www.roblox.com/games/9680886326"
