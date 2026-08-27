@@ -4,7 +4,7 @@ import mergezoo from "../images/mergezoo.png";
 import captive from "../images/captive.png";
 import captive2 from "../images/captive2.png";
 import armtastic from "../images/armtastic.png";
-import miningfactorythumb from "../images/miningfactory_thumb.png";
+import miningfactory from "../images/miningfactory.png";
 import windsoffortune from "../images/windsoffortune.png";
 import westelm from "../images/westelm.png";
 import vmaexperience from "../images/vmaexperience.png";
@@ -84,7 +84,7 @@ export default class Games extends Component<GamesProps, GamesState> {
 					href="https://www.roblox.com/games/12717051222"
 					target="_blank"
 				>
-					<img className="card-img card-bottom corner-pad" src={miningfactorythumb} />
+					<img className="card-img card-bottom corner-pad" src={miningfactory} />
 				</a>
 
 				<div className="grid">
